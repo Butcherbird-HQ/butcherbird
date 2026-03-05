@@ -30,13 +30,17 @@ nav {
   position: fixed;
   top: 0; left: 0; right: 0;
   z-index: 200;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px 56px;
   background: rgba(255, 255, 255, 0.97);
   backdrop-filter: blur(16px);
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+.nav-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .nav-logo { height: 72px; width: auto; cursor: pointer; }
 .nav-links { display: flex; align-items: center; gap: 36px; list-style: none; }
@@ -62,7 +66,7 @@ nav {
 }
 .nav-cta:hover { background: var(--black) !important; color: white !important; }
 @media (max-width: 768px) {
-  nav { padding: 12px 24px; }
+  .nav-inner { padding: 12px 24px; }
   .nav-logo { height: 56px; }
   .nav-links { display: none; }
 }

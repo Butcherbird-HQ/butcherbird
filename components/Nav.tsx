@@ -9,6 +9,7 @@ export default function Nav() {
 
   return (
     <nav>
+      <div className="nav-inner">
       <Link href="/">
         <Image src="/Butcherbird Logo.png" alt="Butcherbird" className="nav-logo" width={200} height={56} />
       </Link>
@@ -39,6 +40,7 @@ export default function Nav() {
           </Link>
         </li>
       </ul>
+      </div>
     </nav>
   )
 }
