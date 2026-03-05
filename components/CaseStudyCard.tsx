@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { CaseStudy } from '@/lib/data'
 
 interface Props {
@@ -10,7 +11,17 @@ export default function CaseStudyCard({ study, onClick, metrics }: Props) {
   return (
     <div className="cs-card reveal" onClick={onClick}>
       <div className="cs-ph">
-        <div className="cs-ph-txt">{study.brand}</div>
+        {study.image ? (
+          <Image
+            src={study.image}
+            alt={study.brand}
+            fill
+            style={{ objectFit: 'cover' }}
+            sizes="(max-width: 600px) 100vw, (max-width: 900px) 50vw, 33vw"
+          />
+        ) : (
+          <div className="cs-ph-txt">{study.brand}</div>
+        )}
         <div className="cs-hover-layer">
           <div className="cs-hover-icon">↗</div>
         </div>
@@ -20,8 +31,8 @@ export default function CaseStudyCard({ study, onClick, metrics }: Props) {
         <div className="cs-brand">{study.brand}</div>
         <div className="cs-desc">{study.subtitle}</div>
         <div className="cs-mets">
-          {metrics.map((m) => (
-            <div key={m.lbl} className="cs-mv">
+          {metrics.map((m, i) => (
+            <div key={i} className="cs-mv">
               {m.val}
               <span className="cs-ml">{m.lbl}</span>
             </div>

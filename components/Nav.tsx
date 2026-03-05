@@ -10,7 +10,7 @@ export default function Nav() {
   return (
     <nav>
       <Link href="/">
-        <Image src="/logo.png" alt="Butcherbird" className="nav-logo" width={120} height={34} />
+        <Image src="/Butcherbird Logo.png" alt="Butcherbird" className="nav-logo" width={200} height={56} />
       </Link>
       <ul className="nav-links">
         <li>

@@ -8,7 +8,7 @@ import RevealOnScroll from '@/components/RevealOnScroll'
 import CaseStudyCard from '@/components/CaseStudyCard'
 import { caseStudies, CaseStudy } from '@/lib/data'
 
-const homeStudies = caseStudies.slice(0, 6)
+const homeStudies = caseStudies
 
 export default function HomePage() {
   const [activeModal, setActiveModal] = useState<CaseStudy | null>(null)
