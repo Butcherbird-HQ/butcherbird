@@ -93,8 +93,8 @@ export default function PartnerPage() {
                 <h2 className="f-h1" style={{ marginBottom: 20 }}>We don&apos;t just run ads.<br /><span className="gold">We build empires.</span></h2>
                 <p className="f-body" style={{ marginBottom: 18 }}>
                   In 7 months, we&apos;ve taken brands from zero to meaningful revenue,
-                  opened 600+ retail doors, acquired 50,000+ customers, and produced a cross-brand
-                  insights report most agencies couldn&apos;t produce in 3 years.
+                  opened 600+ retail doors, acquired 50,000+ customers, and generated R10,000,000+
+                  from R2,173,913 in ad spend — documented in full.
                 </p>
                 <p className="f-body">
                   We operate on South African talent costs and charge in USD. That arbitrage is structural
@@ -102,13 +102,13 @@ export default function PartnerPage() {
                 </p>
               </div>
               <div className="kpi-mini-grid">
-                <div className="kpi"><div className="kpi-val gold">8</div><div className="kpi-lbl">Months operating</div></div>
+                <div className="kpi"><div className="kpi-val gold">7</div><div className="kpi-lbl">Months operating</div></div>
                 <div className="kpi"><div className="kpi-val">3</div><div className="kpi-lbl">Internal brands built</div></div>
                 <div className="kpi"><div className="kpi-val">18</div><div className="kpi-lbl">Team members</div></div>
                 <div className="kpi"><div className="kpi-val gold">~18:1</div><div className="kpi-lbl">ZAR:USD edge</div></div>
                 <div className="kpi" style={{ gridColumn: '1 / -1' }}>
-                  <div className="kpi-val">R5.05<span className="gold">M</span></div>
-                  <div className="kpi-lbl">Revenue from R1.63M spend</div>
+                  <div className="kpi-val">R10<span className="gold">M+</span></div>
+                  <div className="kpi-lbl">Revenue from R2,173,913 in spend</div>
                 </div>
               </div>
             </div>
@@ -178,7 +178,7 @@ export default function PartnerPage() {
         <div className="container">
           <div className="footer-inner">
             <p className="f-label">butcherbird.global · Cape Town · 2026</p>
-            <Link className="btn btn-gold" href="/#audit">Get Free Audit</Link>
+            <a className="btn btn-gold" href="CALENDLY_LINK_HERE" target="_blank" rel="noopener noreferrer">Book an Intro Call</a>
           </div>
         </div>
       </footer>

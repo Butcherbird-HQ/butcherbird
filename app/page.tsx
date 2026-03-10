@@ -30,8 +30,8 @@ export default function HomePage() {
             from R2.2M<br />
             in ad spend.
           </h1>
-          <div style={{ maxWidth: 480, marginBottom: 48 }} className="anim d3">
-            <p className="f-italic" style={{ marginBottom: 16 }}>We can do the same for yours.</p>
+          <p className="f-italic anim d2" style={{ marginTop: 20, marginBottom: 0 }}>Within 7 months from launch.</p>
+          <div style={{ maxWidth: 480, marginBottom: 48, marginTop: 32 }} className="anim d3">
             <p className="f-body">
               Butcherbird is a Cape Town-based growth agency. Paid media. Email marketing.
               Built by operators who run their own brands on the same system. When we say
@@ -39,7 +39,7 @@ export default function HomePage() {
             </p>
           </div>
           <div style={{ display: 'flex', gap: 20, flexWrap: 'wrap' }} className="anim d4">
-            <a className="btn btn-gold" href="#audit">Get a Free Account Audit</a>
+            <a className="btn btn-gold" href="CALENDLY_LINK_HERE" target="_blank" rel="noopener noreferrer">Start Scaling Seriously</a>
             <Link className="btn btn-outline" href="/work">See Our Work</Link>
           </div>
         </div>
@@ -90,36 +90,42 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* AUDIT */}
-      <section className="section" style={{ background: 'var(--dark2)' }} id="audit">
+      {/* INTRO CALL */}
+      <section className="section" style={{ background: 'var(--dark2)' }} id="contact">
         <div className="container">
           <div className="audit-block reveal">
             <div className="audit-block-inner">
               <div>
                 <div className="gold-rule" />
-                <p className="f-gold" style={{ marginBottom: 14 }}>Free account audit</p>
+                <p className="f-gold" style={{ marginBottom: 14 }}>Introductory Call · 20 Minutes</p>
                 <h2 className="f-h1" style={{ marginBottom: 18 }}>
-                  We&apos;ll show you exactly<br />what your ads are<br /><span className="gold">leaving on the table.</span>
+                  Ready to scale<br />seriously?<br /><span className="gold">Let&apos;s find out.</span>
                 </h2>
-                <p className="f-italic">No cost. No pitch. Just clarity.</p>
+                <p className="f-italic">A mutual assessment. Not a sales pitch.</p>
               </div>
               <div>
-                <p className="f-body" style={{ marginBottom: 4 }}>
-                  We analysed R2,173,913 in ad spend across our brands and clients — and documented every place money was lost.
-                  We built frameworks to stop it recurring. We&apos;ll do a 30-minute version of that analysis
-                  for your account — before you spend a rand with us.
+                <p className="f-body" style={{ marginBottom: 24 }}>
+                  We take on a limited number of clients at a time. Before either side commits, we spend 20 minutes
+                  understanding your brand, your current setup, and where the real leverage is. If there&apos;s a fit,
+                  we&apos;ll tell you exactly how we&apos;d approach your account. If there isn&apos;t, we&apos;ll tell you that too.
                 </p>
-                <ul className="audit-list">
-                  <li>Review of your current Meta ad structure</li>
-                  <li>Creative performance gap analysis</li>
-                  <li>Email infrastructure assessment</li>
-                  <li>3 specific actions to take immediately</li>
-                  <li>No agency sales pitch on the call</li>
+                <p className="f-gold" style={{ marginBottom: 10 }}>Apply if you</p>
+                <ul className="audit-list" style={{ marginBottom: 24 }}>
+                  <li>Are spending $1,500+/month on paid media and want to push harder</li>
+                  <li>Have a product with proven demand that needs serious scale</li>
+                  <li>Want operators with skin in the game — not account managers</li>
+                  <li>Are ready to move fast and execute without hand-holding</li>
                 </ul>
-                <a className="btn btn-gold" href="mailto:hello@butcherbird.global?subject=Free Account Audit">
-                  Book Your Free 30-Min Audit
+                <p className="f-gold" style={{ marginBottom: 10 }}>Skip this if you</p>
+                <ul className="audit-list" style={{ marginBottom: 28 }}>
+                  <li>Are in early testing phase with minimal or no active spend</li>
+                  <li>Need weekly check-in calls and sign-off on every decision</li>
+                  <li>Want a traditional managed-service agency relationship</li>
+                </ul>
+                <a className="btn btn-gold" href="CALENDLY_LINK_HERE" target="_blank" rel="noopener noreferrer">
+                  Book the 20-Minute Call
                 </a>
-                <p className="f-label" style={{ marginTop: 14 }}>Min. spend to qualify: $1,500/month or R15,000/month</p>
+                <p className="f-label" style={{ marginTop: 14 }}>Min. active spend: $1,500/month or R15,000/month</p>
               </div>
             </div>
           </div>
@@ -210,26 +216,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* CROSS-BRAND STATS */}
-      <div className="stats-strip">
-        <div className="container">
-          <div className="stats2">
-            <div className="reveal">
-              <div className="gold-rule" />
-              <p className="f-gold" style={{ marginBottom: 12 }}>The cross-brand report</p>
-              <h2 className="f-h1" style={{ marginBottom: 14 }}>R1.63M in spend.<br />Every rand<br /><span className="gold">accounted for.</span></h2>
-              <p className="f-body">We analysed every campaign across 6 brands, documented wins and mistakes, and built process frameworks from both. Ask for the report on your audit call.</p>
-            </div>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: 0 }}>
-              <div className="stat reveal"><div className="stat-num" style={{ fontSize: 'clamp(18px,2.2vw,30px)' }}><span className="gold">R1.63M</span></div><div className="f-label">Ad spend analysed</div></div>
-              <div className="stat reveal"><div className="stat-num" style={{ fontSize: 'clamp(18px,2.2vw,30px)' }}>45.23<span className="gold">×</span></div><div className="f-label">Best single creative</div></div>
-              <div className="stat reveal"><div className="stat-num" style={{ fontSize: 'clamp(18px,2.2vw,30px)' }}>115<span className="gold">×</span></div><div className="f-label">Single-day peak</div></div>
-              <div className="stat reveal" style={{ borderRight: 'none' }}><div className="stat-num" style={{ fontSize: 'clamp(18px,2.2vw,30px)' }}><span className="gold">8</span></div><div className="f-label">Months operating</div></div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       {/* TEAM */}
       <section className="section" style={{ background: 'var(--dark2)' }}>
         <div className="container">
@@ -240,7 +226,7 @@ export default function HomePage() {
           <div className="story-grid">
             <div>
               <div className="gold-rule reveal-l" />
-              <p className="f-gold reveal-l" style={{ marginBottom: 18 }}>Cape Town · 18 people · 8 months</p>
+              <p className="f-gold reveal-l" style={{ marginBottom: 18 }}>Cape Town · 18 people · 7 months</p>
               <h2 className="f-h1 reveal-l" style={{ marginBottom: 20 }}>Built by operators.<br />Not marketers.</h2>
               <p className="f-body reveal-l" style={{ marginBottom: 18 }}>
                 We didn&apos;t start as an agency. We started by building our own consumer brands with our own
@@ -257,7 +243,7 @@ export default function HomePage() {
                 This is not a discount position — it&apos;s an arbitrage position.
               </p>
               <div style={{ marginTop: 36 }} className="reveal-l">
-                <a className="btn btn-gold" href="#audit">Work With Us</a>
+                <a className="btn btn-gold" href="CALENDLY_LINK_HERE" target="_blank" rel="noopener noreferrer">Book an Intro Call</a>
               </div>
             </div>
             <div>
@@ -288,16 +274,16 @@ export default function HomePage() {
         <div style={{ position: 'absolute', inset: 0, background: 'radial-gradient(ellipse at center,rgba(184,150,62,.08),transparent 65%)', pointerEvents: 'none' }} />
         <div className="container" style={{ position: 'relative', zIndex: 1, maxWidth: 640 }}>
           <div className="gold-rule-c reveal" />
-          <p className="f-gold reveal" style={{ marginBottom: 22 }}>One more time</p>
+          <p className="f-gold reveal" style={{ marginBottom: 22 }}>The opportunity is right there</p>
           <h2 className="f-h1 reveal" style={{ marginBottom: 18 }}>
-            Your ads are leaving money<br />on the table.<br /><span className="gold">We&apos;ll show you exactly where.</span>
+            You need operators<br />who know how<br /><span className="gold">to take it.</span>
           </h2>
           <p className="f-body reveal" style={{ marginBottom: 36, maxWidth: 460, marginLeft: 'auto', marginRight: 'auto' }}>
-            30 minutes. Free. No pitch. We review your account, identify the leverage, and you leave with
-            three things to act on — whether you work with us or not.
+            20 minutes. No pitch. We look at your brand, tell you what we see — and if we&apos;re
+            the right fit for each other, we get to work.
           </p>
-          <a className="btn btn-gold reveal" href="mailto:hello@butcherbird.global?subject=Free Account Audit">
-            Book the Audit — It&apos;s Free
+          <a className="btn btn-gold reveal" href="CALENDLY_LINK_HERE" target="_blank" rel="noopener noreferrer">
+            Book Your Intro Call
           </a>
           <p className="f-label reveal" style={{ marginTop: 18 }}>butcherbird.global · Cape Town · hello@butcherbird.global</p>
         </div>

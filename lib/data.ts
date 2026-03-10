@@ -47,7 +47,7 @@ export const caseStudies: CaseStudy[] = [
       { val: '182+', lbl: 'Retail doors' },
     ],
     story:
-      "Schnozz started as a single nasal strip SKU. Eight months later: Kiddies strips, Mouth Tape, retail distribution in Sportsman's Warehouse and CNA, and over 20,000 paying customers. The UGC testimonial creative achieved R47 cost-per-acquisition. These results are in our Cross-Brand Insights Report.",
+      "Schnozz started as a single nasal strip SKU. Eight months later: Kiddies strips, Mouth Tape, retail distribution in Sportsman's Warehouse and CNA, and over 20,000 paying customers. The UGC testimonial creative achieved R47 cost-per-acquisition.",
   },
   {
     id: 'superior',
@@ -98,7 +98,7 @@ export const caseStudies: CaseStudy[] = [
       { val: '0', lbl: 'Reason to stop it' },
     ],
     story:
-      'Lakrids produced some of the most extraordinary ad performance we have ever documented. A luxury static creative hit 25.39× ROAS and was converting at 43× on its penultimate day — then was killed during a campaign switch. The Black Friday campaign hit 45.23× ROAS at its peak and was also ended early. These are our most painful documented mistakes. They are in our Cross-Brand Insights Report.',
+      'Lakrids produced some of the most extraordinary ad performance we have ever documented. A luxury static creative hit 25.39× ROAS and was converting at 43× on its penultimate day — then was killed during a campaign switch. The Black Friday campaign hit 45.23× ROAS at its peak and was also ended early. These are our most painful documented mistakes — and the clearest proof that knowing when not to stop a campaign is as important as knowing how to start one.',
   },
   {
     id: 'numuti',

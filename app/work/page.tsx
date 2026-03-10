@@ -80,7 +80,7 @@ export default function WorkPage() {
         <div className="container">
           <div className="footer-inner">
             <p className="f-label">butcherbird.global · Cape Town · 2026</p>
-            <Link className="btn btn-gold" href="/#audit">Get Free Audit</Link>
+            <a className="btn btn-gold" href="CALENDLY_LINK_HERE" target="_blank" rel="noopener noreferrer">Book an Intro Call</a>
           </div>
         </div>
       </footer>
