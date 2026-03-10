@@ -26,8 +26,8 @@ export default function HomePage() {
           </div>
           <h1 className="hero-hl anim d2">
             We generated<br />
-            <span className="gold">R5,050,000</span><br />
-            from R1.63M<br />
+            <span className="gold">R10,000,000+</span><br />
+            from R2.2M<br />
             in ad spend.
           </h1>
           <div style={{ maxWidth: 480, marginBottom: 48 }} className="anim d3">
@@ -43,18 +43,18 @@ export default function HomePage() {
             <Link className="btn btn-outline" href="/work">See Our Work</Link>
           </div>
         </div>
-        <div className="hero-ghost">3.10×</div>
+        <div className="hero-ghost">4.6×</div>
       </section>
 
       {/* STATS STRIP */}
       <div className="stats-strip">
         <div className="container">
           <div className="stats-grid">
-            <div className="stat reveal"><div className="stat-num"><span className="gold">R5.05M</span></div><div className="f-label">Revenue generated</div></div>
-            <div className="stat reveal"><div className="stat-num">3.10<span className="gold">×</span></div><div className="f-label">Blended ROAS avg</div></div>
-            <div className="stat reveal"><div className="stat-num"><span className="gold">6</span></div><div className="f-label">Brands scaled</div></div>
-            <div className="stat reveal"><div className="stat-num">20<span className="gold">K+</span></div><div className="f-label">Customers acquired</div></div>
-            <div className="stat reveal"><div className="stat-num">182<span className="gold">+</span></div><div className="f-label">Retail doors</div></div>
+            <div className="stat reveal"><div className="stat-num"><span className="gold">R10M+</span></div><div className="f-label">Revenue generated</div></div>
+            <div className="stat reveal"><div className="stat-num">4.6<span className="gold">×</span></div><div className="f-label">Blended ROAS avg</div></div>
+            <div className="stat reveal"><div className="stat-num"><span className="gold">4</span></div><div className="f-label">Portfolio brands</div></div>
+            <div className="stat reveal"><div className="stat-num">50<span className="gold">K+</span></div><div className="f-label">Customers acquired</div></div>
+            <div className="stat reveal"><div className="stat-num">600<span className="gold">+</span></div><div className="f-label">Retail doors</div></div>
           </div>
         </div>
       </div>
@@ -105,7 +105,7 @@ export default function HomePage() {
               </div>
               <div>
                 <p className="f-body" style={{ marginBottom: 4 }}>
-                  We analysed R1,630,000 in ad spend across 6 brands and documented every place money was lost.
+                  We analysed R2,173,913 in ad spend across our brands and clients — and documented every place money was lost.
                   We built frameworks to stop it recurring. We&apos;ll do a 30-minute version of that analysis
                   for your account — before you spend a rand with us.
                 </p>

@@ -25,7 +25,7 @@ export default function WorkPage() {
             <div className="sec-label-line" />
           </div>
           <h1 className="f-display anim d2" style={{ maxWidth: 700, marginBottom: 18 }}>
-            R1,630,000<br /><span className="gold">in ad spend.</span><br />Documented.
+            R2,173,913<br /><span className="gold">in ad spend.</span><br />Documented.
           </h1>
           <p className="f-italic anim d3" style={{ maxWidth: 460, marginBottom: 36 }}>
             Every brand below is a real engagement. Real numbers. Real mistakes. Real results.

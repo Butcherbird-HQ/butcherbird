@@ -92,8 +92,8 @@ export default function PartnerPage() {
                 <p className="f-gold" style={{ marginBottom: 14 }}>Why partner with Butcherbird</p>
                 <h2 className="f-h1" style={{ marginBottom: 20 }}>We don&apos;t just run ads.<br /><span className="gold">We build empires.</span></h2>
                 <p className="f-body" style={{ marginBottom: 18 }}>
-                  In 8 months, we&apos;ve taken three consumer brands from zero to meaningful revenue,
-                  opened 182+ retail doors, acquired 30,000+ customers, and produced a cross-brand
+                  In 7 months, we&apos;ve taken brands from zero to meaningful revenue,
+                  opened 600+ retail doors, acquired 50,000+ customers, and produced a cross-brand
                   insights report most agencies couldn&apos;t produce in 3 years.
                 </p>
                 <p className="f-body">
