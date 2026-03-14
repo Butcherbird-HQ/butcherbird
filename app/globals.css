@@ -201,6 +201,13 @@ nav {
   user-select: none;
 }
 
+/* SECTION NAV PILL */
+.sec-pill { position: fixed; bottom: 28px; left: 50%; transform: translateX(-50%); z-index: 300; display: flex; align-items: center; background: #fff; border-radius: 999px; padding: 8px 14px; gap: 4px; box-shadow: 0 4px 24px rgba(0,0,0,0.18); }
+.sec-pill-btn { background: none; border: none; cursor: pointer; color: var(--gold); display: flex; align-items: center; justify-content: center; padding: 4px 6px; transition: opacity .2s; border-radius: 999px; }
+.sec-pill-btn:disabled { opacity: 0.25; cursor: default; }
+.sec-pill-btn:not(:disabled):hover { opacity: 0.7; }
+.sec-pill-divider { width: 1px; height: 14px; background: rgba(0,0,0,0.1); margin: 0 2px; }
+
 /* VSL */
 .vsl-section { background: var(--dark); padding: 0 0 112px; }
 .vsl-inner { text-align: left; }

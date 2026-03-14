@@ -69,6 +69,28 @@ export default function HomePage() {
     return () => el.removeEventListener('scroll', onScroll)
   }, [])
 
+  const SECTIONS = ['hero','testimonials','vsl','contact','what-we-do','client-stories','team','contact-form']
+  const [activeSection, setActiveSection] = useState(0)
+  useEffect(() => {
+    function onScroll() {
+      const mid = window.innerHeight / 2
+      let current = 0
+      SECTIONS.forEach((id, i) => {
+        const el = document.getElementById(id)
+        if (!el) return
+        const rect = el.getBoundingClientRect()
+        if (rect.top <= mid) current = i
+      })
+      setActiveSection(current)
+    }
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
+  function goSection(dir: 1 | -1) {
+    const next = Math.max(0, Math.min(SECTIONS.length - 1, activeSection + dir))
+    const el = document.getElementById(SECTIONS[next])
+    if (el) el.scrollIntoView({ behavior: 'smooth' })
+  }
 
   return (
     <>
@@ -117,7 +139,7 @@ export default function HomePage() {
       </div>
 
       {/* TESTIMONIALS */}
-      <section className="section" style={{ background: 'var(--dark)' }}>
+      <section className="section" style={{ background: 'var(--dark)' }} id="testimonials">
         <div className="container">
           <div className="gold-rule reveal" />
           <h2 className="f-h1 reveal" style={{ marginBottom: 0 }}>What our<br />clients say.</h2>
@@ -156,7 +178,7 @@ export default function HomePage() {
       </section>
 
       {/* VSL */}
-      <section className="vsl-section">
+      <section className="vsl-section" id="vsl">
         <div className="container">
           <div className="vsl-inner reveal">
             <h2 className="f-h1" style={{ marginBottom: 32 }}>90 seconds. Hear it from us.</h2>
@@ -403,6 +425,17 @@ export default function HomePage() {
       <Footer />
 
       {activeModal && <Modal study={activeModal} onClose={() => setActiveModal(null)} initialTab={activeTab} />}
+
+      {/* SECTION NAV PILL */}
+      <div className="sec-pill">
+        <button className="sec-pill-btn" onClick={() => goSection(-1)} disabled={activeSection === 0} aria-label="Previous section">
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="2,8 6,4 10,8" /></svg>
+        </button>
+        <div className="sec-pill-divider" />
+        <button className="sec-pill-btn" onClick={() => goSection(1)} disabled={activeSection === SECTIONS.length - 1} aria-label="Next section">
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="2,4 6,8 10,4" /></svg>
+        </button>
+      </div>
     </>
   )
 }
