@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -14,6 +14,7 @@ const InstagramIcon = () => (
 
 export default function Footer() {
   const [logoVisible, setLogoVisible] = useState(false)
+  useEffect(() => { const t = setTimeout(() => setLogoVisible(true), 100); return () => clearTimeout(t) }, [])
 
   return (
     <footer className="footer">
@@ -24,8 +25,7 @@ export default function Footer() {
             alt="Butcherbird"
             width={180}
             height={65}
-            style={{ width: 'auto', height: 44, filter: 'invert(1)', opacity: logoVisible ? 0.85 : 0, transition: 'opacity .6s ease' }}
-            onLoad={() => setLogoVisible(true)}
+            style={{ width: 'auto', height: 44, filter: 'brightness(0)', opacity: logoVisible ? 0.75 : 0, transition: 'opacity .7s ease' }}
           />
         </div>
 
@@ -53,7 +53,7 @@ export default function Footer() {
             <ul>
               <li><a href="mailto:hello@butcherbird.global">hello@butcherbird.global</a></li>
               <li>
-                <a href="https://www.instagram.com/butcherbird.global" target="_blank" rel="noopener noreferrer" className="footer-insta-link">
+                <a href="https://www.instagram.com/butcherbirdglobal" target="_blank" rel="noopener noreferrer" className="footer-insta-link">
                   <InstagramIcon /> Instagram
                 </a>
               </li>
@@ -63,7 +63,7 @@ export default function Footer() {
 
         <div className="footer-bottom">
           <p className="f-label">© 2026 Butcherbird Global · Cape Town, South Africa</p>
-          <a href="https://www.instagram.com/butcherbird.global" target="_blank" rel="noopener noreferrer" className="footer-insta-icon" aria-label="Instagram">
+          <a href="https://www.instagram.com/butcherbirdglobal" target="_blank" rel="noopener noreferrer" className="footer-insta-icon" aria-label="Instagram">
             <InstagramIcon />
           </a>
         </div>
