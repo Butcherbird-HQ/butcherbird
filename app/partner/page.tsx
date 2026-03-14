@@ -43,21 +43,21 @@ export default function PartnerPage() {
       </section>
 
       {/* WHO WE PARTNER WITH */}
-      <section className="section" style={{ background: 'var(--dark)' }}>
+      <section className="section" style={{ background: '#fff' }}>
         <div className="container">
           <div className="gold-rule reveal" />
           <p className="f-gold reveal" style={{ marginBottom: 52 }}>Who we are looking for</p>
           <div className="pw-rows">
-            <div className="pw-row reveal">
+            <div className="pw-row reveal" style={{ borderTopColor: 'rgba(0,0,0,0.08)' }}>
               <div className="pw-row-left">
-                <div className="pw-row-num">01</div>
+                <div className="pw-row-num" style={{ color: 'rgba(0,0,0,0.04)' }}>01</div>
                 <div className="f-gold">Venture Capital</div>
               </div>
               <div className="pw-row-right">
-                <h2 className="f-h2" style={{ marginBottom: 16 }}>
+                <h2 className="f-h2" style={{ marginBottom: 16, color: 'var(--black)' }}>
                   You want your portfolio brands to actually scale.
                 </h2>
-                <p className="f-body">
+                <p className="f-body" style={{ color: 'rgba(0,0,0,0.6)' }}>
                   We build and operate consumer brands — infrastructure, creative, media, system.
                   If you&apos;re looking to co-fund our own projects, or deploy capital into brands
                   you&apos;ve already backed and need a real operating team behind them — that&apos;s us.
@@ -66,16 +66,16 @@ export default function PartnerPage() {
               </div>
             </div>
 
-            <div className="pw-row reveal">
+            <div className="pw-row reveal" style={{ borderTopColor: 'rgba(0,0,0,0.08)' }}>
               <div className="pw-row-left">
-                <div className="pw-row-num">02</div>
+                <div className="pw-row-num" style={{ color: 'rgba(0,0,0,0.04)' }}>02</div>
                 <div className="f-gold">Entrepreneurs</div>
               </div>
               <div className="pw-row-right">
-                <h2 className="f-h2" style={{ marginBottom: 16 }}>
+                <h2 className="f-h2" style={{ marginBottom: 16, color: 'var(--black)' }}>
                   Great product. No founding team. We can be it.
                 </h2>
-                <p className="f-body">
+                <p className="f-body" style={{ color: 'rgba(0,0,0,0.6)' }}>
                   You&apos;ve built something people want. Scaling a DTC brand takes a full team —
                   media buyers, creatives, email marketers, strategists. You don&apos;t need to hire
                   all of that. We become your founding growth team, with skin in the game,
@@ -84,16 +84,16 @@ export default function PartnerPage() {
               </div>
             </div>
 
-            <div className="pw-row reveal">
+            <div className="pw-row reveal" style={{ borderTopColor: 'rgba(0,0,0,0.08)', borderBottomColor: 'rgba(0,0,0,0.08)' }}>
               <div className="pw-row-left">
-                <div className="pw-row-num">03</div>
+                <div className="pw-row-num" style={{ color: 'rgba(0,0,0,0.04)' }}>03</div>
                 <div className="f-gold">Talent</div>
               </div>
               <div className="pw-row-right">
-                <h2 className="f-h2" style={{ marginBottom: 16 }}>
+                <h2 className="f-h2" style={{ marginBottom: 16, color: 'var(--black)' }}>
                   Want to work for the best company in the game?
                 </h2>
-                <p className="f-body">
+                <p className="f-body" style={{ color: 'rgba(0,0,0,0.6)' }}>
                   We&apos;re building the fastest-moving growth agency in Africa. If you are
                   exceptional at what you do and want to be somewhere that matches your ambition —
                   we want to hear from you. Not a corporate job. Real ownership of real outcomes.
@@ -104,39 +104,21 @@ export default function PartnerPage() {
         </div>
       </section>
 
-      {/* THE PROOF */}
-      <section className="section" style={{ background: '#fff' }}>
-        <div className="container">
-          <div className="pw-proof reveal">
-            <div className="gold-rule" style={{ marginBottom: 28 }} />
-            <blockquote className="pw-proof-quote">
-              R10,000,000+ from R2,173,913 in ad spend.<br />
-              In 7 months. Documented in full.
-            </blockquote>
-            <p className="f-label" style={{ color: 'rgba(0,0,0,0.35)', marginTop: 28, marginBottom: 40 }}>
-              — Butcherbird Global · Cape Town, South Africa · 2025
-            </p>
-            <a
-              className="btn btn-gold"
-              href="https://calendly.com/g-butcherbird/butcherbird-introduction-w-gascoyne"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Book a Call
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* APPLICATION FORM */}
+      {/* PROOF + APPLICATION FORM */}
       <section className="section" style={{ background: 'var(--dark)' }} id="partner-form">
         <div className="container">
           <div className="pf-inner reveal">
             <div>
-              <div className="gold-rule" style={{ marginBottom: 20 }} />
-              <p className="f-gold" style={{ marginBottom: 14 }}>Apply</p>
-              <h2 className="f-h1" style={{ marginBottom: 18 }}>Tell us why<br />this makes sense.</h2>
-              <p className="f-body" style={{ marginBottom: 28 }}>
+              <div className="gold-rule" style={{ marginBottom: 28 }} />
+              <p className="f-gold" style={{ marginBottom: 24 }}>Apply</p>
+              <blockquote className="pw-proof-quote" style={{ color: 'var(--off-white)', marginBottom: 28 }}>
+                R10,000,000+ from<br />R2,173,913 in ad spend.<br />
+                In 7 months.<br />Documented in full.
+              </blockquote>
+              <p className="f-label" style={{ color: 'var(--mid)', marginBottom: 40 }}>
+                — Butcherbird Global · Cape Town · 2025
+              </p>
+              <p className="f-body" style={{ marginBottom: 12 }}>
                 We take on a small number of partnerships. We read every submission and
                 respond personally. If you have something real, be specific about it.
               </p>
