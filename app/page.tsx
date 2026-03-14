@@ -384,6 +384,7 @@ export default function HomePage() {
                 { initials: 'IT', name: 'Ilan Tait', role: 'Portfolio Manager' },
                 { initials: 'KM', name: 'Kathleen Murphy', role: 'Marketing Director' },
                 { initials: 'TB', name: 'Tian Bester', role: 'Paid Media Manager' },
+                { initials: 'MC', name: 'Maximus Clarke', role: 'Warehouse & Logistics Manager' },
               ].map((member) => (
                 <div key={member.name} className="team-card">
                   <div className="team-img-ph"><div className="team-img-lbl">{member.initials}</div></div>
@@ -400,6 +401,7 @@ export default function HomePage() {
             <p className="f-gold" style={{ marginBottom: 28, letterSpacing: '0.2em' }}>Team</p>
             <div className="team-grid-staff">
               {[
+                { initials: 'CB', name: 'Claudia Barnard', role: 'Graphic Design' },
                 { initials: 'RT', name: 'Rhett Tomlinson', role: 'Graphic Design & Creative' },
                 { initials: 'KF', name: 'Kaylee Frankson', role: 'Email Marketing Manager' },
                 { initials: 'MS', name: 'Morgan Scott', role: 'Videographer & Video Editor' },
@@ -408,10 +410,8 @@ export default function HomePage() {
                 { initials: 'JF', name: 'Jordyn Fester', role: 'Events Manager' },
                 { initials: 'AS', name: 'Aamir Sayed', role: 'IT & Technical Infrastructure' },
                 { initials: 'ZE', name: 'Zubayr Ederies', role: 'Graphic Design & Web Development' },
-                { initials: 'MC', name: 'Maximus Clarke', role: 'Warehouse & Logistics Manager' },
                 { initials: 'NC', name: 'Nikki Clarke', role: 'Administration & HR' },
                 { initials: 'CT', name: 'Charmaine Trevisan', role: 'Accounts' },
-                { initials: 'CB', name: 'Claudia Barnard', role: 'Graphic Design' },
               ].map((member) => (
                 <div key={member.name} className="team-card">
                   <div className="team-img-ph"><div className="team-img-lbl">{member.initials}</div></div>
