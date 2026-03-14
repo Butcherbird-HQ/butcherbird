@@ -168,7 +168,8 @@ export default function HomePage() {
               </div>
             ))}
           </div>
-          <button className="testi-arrow-hint" style={{ opacity: testiProgress >= 0.99 ? 0 : 1 }} onClick={() => testiRef.current?.scrollBy({ left: 460, behavior: 'smooth' })} aria-label="Scroll testimonials" />
+          <button className="testi-arrow-hint testi-arrow-left" style={{ opacity: testiProgress <= 0.01 ? 0 : 1, pointerEvents: testiProgress <= 0.01 ? 'none' : 'auto' }} onClick={() => testiRef.current?.scrollBy({ left: -460, behavior: 'smooth' })} aria-label="Scroll testimonials left" />
+          <button className="testi-arrow-hint testi-arrow-right" style={{ opacity: testiProgress >= 0.99 ? 0 : 1, pointerEvents: testiProgress >= 0.99 ? 'none' : 'auto' }} onClick={() => testiRef.current?.scrollBy({ left: 460, behavior: 'smooth' })} aria-label="Scroll testimonials right" />
           </div>
           <div className="testi-scrollbar">
             <div className="testi-scrollbar-fill" style={{ width: `${testiProgress * 100}%` }} />
