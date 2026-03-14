@@ -20,12 +20,12 @@ const InstaIcon = () => (
 
 const buubTimeline = [
   {
-    date: 'Before Butcherbird',
-    text: 'Two agencies. Thousands spent. Monthly PDFs full of impressions and reach — no purchases, no accountability. By the time BUUB found us, trust in paid media was gone.',
+    date: 'Before the System',
+    text: 'BUUB existed before Butcherbird did. Beach markets, Instagram DMs, word of mouth. Two external agencies came and went — thousands spent, no accountability, no results. Paid media felt broken.',
   },
   {
-    date: 'The Audit',
-    text: 'We started with numbers, not a pitch deck. Full account audit, honest assessment: the previous work wasn\'t underperforming — it was fundamentally broken. We rebuilt the funnel, the creative, and the strategy from scratch.',
+    date: 'Butcherbird Launches',
+    text: 'We built Butcherbird to solve exactly this problem — and BUUB was the first brand we ran the system on. Full-funnel structure, creative that actually sounded like the brand, relentless testing. Everything the agencies never did.',
   },
   {
     date: 'The Results',
@@ -33,7 +33,7 @@ const buubTimeline = [
   },
   {
     date: 'National Retail',
-    text: 'Performance data became the pitch. BUUB walked into Dis-Chem and Wellness Warehouse with purchase volume, demand, and growth trajectory. The buyers said yes. A brand that started at beach markets now sits on shelves nationwide.',
+    text: 'Performance data became the pitch. BUUB walked into Dis-Chem and Wellness Warehouse with real purchase volume and a clear growth trajectory. The buyers said yes. A brand that started at beach markets now sits on shelves nationwide.',
   },
 ]
 
@@ -127,9 +127,9 @@ export default function PortfolioPage() {
               <p className="f-gold reveal" style={{ marginBottom: 12 }}>01 — Skincare · buub.co.za</p>
               <h2 className="f-h1 reveal" style={{ marginBottom: 18 }}>BUUB Sunscreen</h2>
               <p className="f-body reveal" style={{ marginBottom: 32 }}>
-                Two agencies took the budget and delivered PDFs full of impressions. By the time BUUB found Butcherbird,
-                the question wasn&apos;t &ldquo;Can we scale?&rdquo; — it was &ldquo;Does paid media even work for us?&rdquo;
-                We rebuilt everything from scratch. It took weeks, not months, to prove it does.
+                BUUB is our brand. It existed before Butcherbird did — and it was struggling. Two external agencies,
+                thousands spent, nothing to show. When we built the Butcherbird system, BUUB was the first brand
+                we ran it on. What happened next became the proof of concept for everything we do.
               </p>
               <div className="timeline reveal">
                 {buubTimeline.map((item) => (
