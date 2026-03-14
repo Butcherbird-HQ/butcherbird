@@ -19,23 +19,68 @@ const InstaIcon = () => (
 )
 
 const buubTimeline = [
-  { date: 'Month 1 · Jul 2025', text: 'Brand concept finalised. Packaging, positioning, and Shopify store built internally. Zero external agency. Zero external capital.' },
-  { date: 'Month 2 · Aug 2025', text: 'First Meta campaigns live. 12 static variants, 4 video concepts tested. Direct product copy vs lifestyle copy — direct wins every time.' },
-  { date: 'Month 3–4 · Sep–Oct 2025', text: 'Klaviyo email infrastructure built. Welcome sequence, abandoned cart, post-purchase flow. Email becomes a meaningful revenue channel within 6 weeks.' },
-  { date: 'Month 5 · Nov 2025', text: 'Search Bar Static creative hits 11.83× ROAS on R174 total spend. Framework documented: never starve a winning creative. Deployed across all brands.' },
-  { date: 'Month 6–8 · Dec–Mar 2026', text: '10,000+ customers. 3.56× blended ROAS across full campaign history. BUUB is the clearest proof of the Butcherbird system at work.' },
+  {
+    date: 'Before Butcherbird',
+    text: 'Two agencies. Thousands spent. Monthly PDFs full of impressions and reach — no purchases, no accountability. By the time BUUB found us, trust in paid media was gone.',
+  },
+  {
+    date: 'The Audit',
+    text: 'We started with numbers, not a pitch deck. Full account audit, honest assessment: the previous work wasn\'t underperforming — it was fundamentally broken. We rebuilt the funnel, the creative, and the strategy from scratch.',
+  },
+  {
+    date: 'The Results',
+    text: '6.82× ROAS. 333 purchases in a single month. R218,000+ in revenue. A single ad hit 7.37× ROAS — generating R55,000 on its own. Not a spike. A new baseline.',
+  },
+  {
+    date: 'National Retail',
+    text: 'Performance data became the pitch. BUUB walked into Dis-Chem and Wellness Warehouse with purchase volume, demand, and growth trajectory. The buyers said yes. A brand that started at beach markets now sits on shelves nationwide.',
+  },
 ]
 
 const schnozzTimeline = [
-  { date: 'Month 1 · Jul 2025', text: 'Single SKU. Nasal strips. DTC only. The playbook from BUUB deployed from day one.' },
-  { date: 'Month 2–3 · Aug–Sep 2025', text: 'Real Reactions UGC creative: 232 purchases at R62 CPA. Testimonial format outperforms branded content. Full UGC strategy built around this insight.' },
-  { date: 'Month 4 · Oct 2025', text: 'First retail conversation opened. Product-market fit clear from DTC data. Sportsman\'s Warehouse approached with performance data as the pitch deck.' },
-  { date: 'Month 5–6 · Nov–Dec 2025', text: 'Kiddies Strips and Mouth Tape extensions launched. Retail confirmed: Sportsman\'s Warehouse and CNA. 200+ doors open.' },
-  { date: 'Month 7–8 · Jan–Mar 2026', text: '20,000+ customers. Testimonial UGC hits R47 CPA — lowest in account history. Strongest video performance in the portfolio.' },
+  {
+    date: 'Pre-Launch',
+    text: '300 ambassadors assembled before a single ad ran. Athletes, wellness creators, sleep coaches, biohackers. The brief: try them, film it, post it. Over 2 million organic views before we spent a rand on media.',
+  },
+  {
+    date: 'Launch',
+    text: 'Full-funnel from day one. Prospecting creative built from the best ambassador content — real faces, real reactions, no scripts. When paid went live, people were already searching for it.',
+  },
+  {
+    date: 'Breakthrough Creatives',
+    text: 'A Sea Point testimonial hit 6.62× ROAS. A hayfever static peaked at 8.60× in a single day. A kids\' mouth-breathing angle — first to market in South Africa — hit 7.37×. Every week, winners got more budget.',
+  },
+  {
+    date: 'Scale',
+    text: 'R4 million+ in revenue in the first three months. 8.20× ROAS in the strongest week. 2,133 purchases in a single month. The system at full speed.',
+  },
+  {
+    date: 'The Win',
+    text: 'People stopped saying "nasal strips." They started saying "Schnozz strips." Amazon, Takealot, Wellness Warehouse, Sportsman\'s Warehouse, Mr Price Sport. US expansion already underway.',
+  },
 ]
 
 const superiorTimeline = [
-  { date: 'Coming soon', text: 'Story coming soon.' },
+  {
+    date: 'Before Butcherbird',
+    text: 'A few hundred reps going door to door, WhatsApp message to WhatsApp message. Great product. Linear growth. One conversation, one agent, one sale at a time — with a ceiling built into the model.',
+  },
+  {
+    date: 'The Rebrand',
+    text: 'New visual identity. New positioning. Creative that made a R70 fragrance feel like it belonged next to the designers it was inspired by. The product always had the quality — the brand now matched it.',
+  },
+  {
+    date: 'Machine 1 — Agent Recruitment',
+    text: '"Buy for R35, sell for R70 — 100% profit on every bottle." Simple, direct, undeniable. Static ads outperformed video every time. The math did the selling. Dozens of angles tested weekly; winners scaled, losers cut.',
+  },
+  {
+    date: 'Machine 2 — Direct to Consumer',
+    text: 'A separate funnel for end consumers running simultaneously. Buy 2 Get 1 Free. Designer comparison ads. Two audiences, two campaigns, one brand growing from both ends at once.',
+  },
+  {
+    date: 'The Results',
+    text: 'From hundreds of reps to a national network. 100,000+ units per month. Agent campaign running at 3.18× ROAS — top creative hit 8.28×. Distribution across South Africa, with Zimbabwe, Mozambique, Lesotho, Eswatini, and Namibia underway.',
+  },
 ]
 
 export default function PortfolioPage() {
@@ -67,9 +112,9 @@ export default function PortfolioPage() {
                 <div className="brand-float"><span className="f-label">[Product detail]</span></div>
               </div>
               <div className="kpis kpis-4">
-                <div className="kpi"><div className="kpi-val">3.56<span className="gold">×</span></div><div className="kpi-lbl">Blended ROAS</div></div>
-                <div className="kpi"><div className="kpi-val">10<span className="gold">K+</span></div><div className="kpi-lbl">Customers</div></div>
-                <div className="kpi"><div className="kpi-val">11.83<span className="gold">×</span></div><div className="kpi-lbl">Best creative</div></div>
+                <div className="kpi"><div className="kpi-val">6.82<span className="gold">×</span></div><div className="kpi-lbl">ROAS</div></div>
+                <div className="kpi"><div className="kpi-val">R218<span className="gold">K+</span></div><div className="kpi-lbl">Best month</div></div>
+                <div className="kpi"><div className="kpi-val">7.37<span className="gold">×</span></div><div className="kpi-lbl">Best creative</div></div>
                 <div className="kpi"><div className="kpi-val">400<span className="gold">+</span></div><div className="kpi-lbl">Retail stores</div></div>
               </div>
               <div className="brand-links">
@@ -82,9 +127,9 @@ export default function PortfolioPage() {
               <p className="f-gold reveal" style={{ marginBottom: 12 }}>01 — Skincare · buub.co.za</p>
               <h2 className="f-h1 reveal" style={{ marginBottom: 18 }}>BUUB Sunscreen</h2>
               <p className="f-body reveal" style={{ marginBottom: 32 }}>
-                An organic SPF50 sunscreen brand built from nothing in a saturated market. BUUB proved the
-                system works — direct product messaging, strategic creative deployment, and a full-stack
-                acquisition engine that now serves 10,000+ customers.
+                Two agencies took the budget and delivered PDFs full of impressions. By the time BUUB found Butcherbird,
+                the question wasn&apos;t &ldquo;Can we scale?&rdquo; — it was &ldquo;Does paid media even work for us?&rdquo;
+                We rebuilt everything from scratch. It took weeks, not months, to prove it does.
               </p>
               <div className="timeline reveal">
                 {buubTimeline.map((item) => (
@@ -112,9 +157,9 @@ export default function PortfolioPage() {
                 <div className="brand-float" style={{ right: 'auto', left: -24 }}><span className="f-label">[UGC still]</span></div>
               </div>
               <div className="kpis">
-                <div className="kpi"><div className="kpi-val">3.10<span className="gold">×</span></div><div className="kpi-lbl">Blended ROAS</div></div>
+                <div className="kpi"><div className="kpi-val">R4<span className="gold">M+</span></div><div className="kpi-lbl">First 3 months</div></div>
+                <div className="kpi"><div className="kpi-val">8.20<span className="gold">×</span></div><div className="kpi-lbl">Peak ROAS</div></div>
                 <div className="kpi"><div className="kpi-val">20<span className="gold">K+</span></div><div className="kpi-lbl">Customers</div></div>
-                <div className="kpi"><div className="kpi-val">200<span className="gold">+</span></div><div className="kpi-lbl">Retail doors</div></div>
               </div>
               <div className="brand-links brand-links-light">
                 <a href="https://schnozzstrips.store" className="brand-link" target="_blank" rel="noopener noreferrer"><GlobeIcon /> schnozzstrips.store</a>
@@ -126,9 +171,9 @@ export default function PortfolioPage() {
               <p className="f-gold reveal-l" style={{ marginBottom: 12 }}>02 — Health & Wellness · schnozzstrips.store</p>
               <h2 className="f-h1 reveal-l" style={{ marginBottom: 18, color: 'var(--black)' }}>Schnozz Strips</h2>
               <p className="f-body reveal-l" style={{ marginBottom: 32, color: 'rgba(0,0,0,0.6)' }}>
-                From a single nasal strip SKU to a multi-product health brand with retail presence in
-                Sportsman&apos;s Warehouse and CNA. Schnozz is the story of what happens when you follow
-                the data without hesitation.
+                Most brands launch with a landing page and a prayer. Schnozz launched with an army.
+                300 ambassadors and 2 million organic views before the first ad ran. By the time paid went live,
+                the market was already waiting.
               </p>
               <div className="timeline reveal-l">
                 {schnozzTimeline.map((item) => (
@@ -156,9 +201,9 @@ export default function PortfolioPage() {
                 <div className="brand-float"><span className="f-label">[Product detail]</span></div>
               </div>
               <div className="kpis">
-                <div className="kpi"><div className="kpi-val">100<span className="gold">K+</span></div><div className="kpi-lbl">Monthly units</div></div>
-                <div className="kpi"><div className="kpi-val"><span className="gold">Since</span></div><div className="kpi-lbl">&apos;23</div></div>
-                <div className="kpi"><div className="kpi-val"><span className="gold">Natl</span></div><div className="kpi-lbl">Distribution</div></div>
+                <div className="kpi"><div className="kpi-val">100<span className="gold">K+</span></div><div className="kpi-lbl">Units / month</div></div>
+                <div className="kpi"><div className="kpi-val">3.18<span className="gold">×</span></div><div className="kpi-lbl">Agent ROAS</div></div>
+                <div className="kpi"><div className="kpi-val">8.28<span className="gold">×</span></div><div className="kpi-lbl">Best creative</div></div>
               </div>
               <div className="brand-links">
                 <a href="https://superior.africa" className="brand-link" target="_blank" rel="noopener noreferrer"><GlobeIcon /> superior.africa</a>
@@ -170,9 +215,9 @@ export default function PortfolioPage() {
               <p className="f-gold reveal" style={{ marginBottom: 12 }}>03 — Fragrance · superior.africa</p>
               <h2 className="f-h1 reveal" style={{ marginBottom: 18 }}>Superior Fragrances</h2>
               <p className="f-body reveal" style={{ marginBottom: 32 }}>
-                A premium fragrance brand built on French-sourced oils and a national agent distribution
-                network. Superior is proof that the Butcherbird system scales beyond DTC — into wholesale,
-                retail, and high-volume unit economics.
+                French oils. ISO 22716 certified. Buy for R35, sell for R70 — double your money per bottle.
+                Superior had a proven product and a ceiling on growth. We rebranded it, built two parallel
+                acquisition machines, and watched it scale past 100,000 units a month.
               </p>
               <div className="timeline reveal">
                 {superiorTimeline.map((item) => (
