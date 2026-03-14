@@ -256,7 +256,7 @@ nav {
 @media (max-width: 768px) { .wwd-grid { grid-template-columns: 1fr; } }
 
 /* CLIENT STORY ROWS */
-.cs-rows { display: flex; flex-direction: column; gap: 2px; }
+.cs-rows { display: flex; flex-direction: column; gap: 2px; padding-left: max(56px, calc((100vw - 1200px) / 2 + 56px)); }
 .cs-row { display: grid; grid-template-columns: 2fr 3fr; }
 .cs-row-img { position: relative; min-height: 460px; background: var(--dark); overflow: hidden; }
 .cs-row-img-ph { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: clamp(32px, 5vw, 72px); letter-spacing: .04em; text-transform: uppercase; color: rgba(255,255,255,.04); }
