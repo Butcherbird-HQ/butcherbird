@@ -23,7 +23,6 @@ export const caseStudies: CaseStudy[] = [
     tag: 'Organic Skincare · DTC · Internal Brand',
     category: 'internal',
     subtitle: 'Organic SPF50 — zero to 10,000+ customers',
-    image: '/BUUB Case Study Cover.png',
     desc: 'Built from zero to 10,000+ customers. An organic SPF50 brand that proved direct product messaging beats lifestyle content every single time.',
     metrics: [
       { val: '3.56×', lbl: 'Blended ROAS' },
@@ -40,7 +39,6 @@ export const caseStudies: CaseStudy[] = [
     tag: 'Health & Wellness · DTC + Retail · Internal Brand',
     category: 'internal',
     subtitle: 'Nasal strips to multi-product retail brand',
-    image: '/SCHNOZZ Case Study Cover.png',
     desc: '20,000+ customers, 182+ retail doors, multiple product extensions — built in under 8 months from a single SKU.',
     metrics: [
       { val: '3.10×', lbl: 'Blended ROAS' },
@@ -57,7 +55,6 @@ export const caseStudies: CaseStudy[] = [
     tag: 'Fragrance · Agent Network · Internal Brand',
     category: 'internal',
     subtitle: 'Agent network model — 50,000+ monthly units',
-    image: '/SUPERIOR Case Study Cover.png',
     desc: 'A fragrance brand that scales without ad spend — through an agent distribution model that now moves 50,000+ units monthly.',
     metrics: [
       { val: '4,000+', lbl: 'Active agents' },
@@ -74,7 +71,6 @@ export const caseStudies: CaseStudy[] = [
     tag: 'Consumer Tech · App · MENA Markets',
     category: 'client',
     subtitle: 'App across MENA — paid media + email',
-    image: '/HELPDESK Case Study Cover.png',
     desc: 'Digital service platform launched across MENA regions. Meta acquisition + email nurturing drove rapid user growth.',
     metrics: [
       { val: '10K+', lbl: 'Downloads' },
@@ -91,7 +87,6 @@ export const caseStudies: CaseStudy[] = [
     tag: 'Premium Confectionery · DTC · Client',
     category: 'client',
     subtitle: 'Luxury confectionery — extraordinary peaks',
-    image: '/LAKRIDS Case Study Cover.png',
     desc: 'A luxury liquorice brand with extraordinary ad performance — including a 45.23× ROAS on Black Friday that was ended at its peak.',
     metrics: [
       { val: '45.23×', lbl: 'BF ROAS peak' },
@@ -108,7 +103,6 @@ export const caseStudies: CaseStudy[] = [
     tag: 'Wellness · DTC · Client',
     category: 'client',
     subtitle: 'Wellness DTC — 115× ROAS in a single day',
-    image: '/NUMUTI Case Study Cover.png',
     desc: 'A wellness brand that hit 115× ROAS in a single day — on a budget of R32/day.',
     metrics: [
       { val: '18.86×', lbl: 'Campaign ROAS' },
@@ -125,7 +119,6 @@ export const caseStudies: CaseStudy[] = [
     tag: 'Wellness · DTC · Client',
     category: 'client',
     subtitle: 'Coming soon — details to follow',
-    image: '/BONNIE Case Study Cover.png',
     desc: 'Full case study coming soon.',
     metrics: [
       { val: '—', lbl: 'Details coming' },
