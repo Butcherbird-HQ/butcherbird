@@ -142,6 +142,9 @@ export default function PortfolioPage() {
                   </div>
                 ))}
               </div>
+              <div style={{ marginTop: 40 }} className="reveal">
+                <a className="btn btn-gold" href="https://calendly.com/g-butcherbird/butcherbird-introduction-w-gascoyne" target="_blank" rel="noopener noreferrer">Book a Call</a>
+              </div>
             </div>
           </div>
         </div>
@@ -186,6 +189,9 @@ export default function PortfolioPage() {
                   </div>
                 ))}
               </div>
+              <div style={{ marginTop: 40 }} className="reveal-l">
+                <a className="btn btn-gold" href="https://calendly.com/g-butcherbird/butcherbird-introduction-w-gascoyne" target="_blank" rel="noopener noreferrer">Book a Call</a>
+              </div>
             </div>
           </div>
         </div>
@@ -229,6 +235,9 @@ export default function PortfolioPage() {
                     </div>
                   </div>
                 ))}
+              </div>
+              <div style={{ marginTop: 40 }} className="reveal">
+                <a className="btn btn-gold" href="https://calendly.com/g-butcherbird/butcherbird-introduction-w-gascoyne" target="_blank" rel="noopener noreferrer">Book a Call</a>
               </div>
             </div>
           </div>
