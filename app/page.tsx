@@ -45,6 +45,8 @@ export default function HomePage() {
   const [activeTab, setActiveTab] = useState<'performance' | 'creative'>('performance')
   const testiRef = useRef<HTMLDivElement>(null)
   const [testiProgress, setTestiProgress] = useState(0)
+  const vslDecoRef = useRef<HTMLDivElement>(null)
+  const [vslDrawn, setVslDrawn] = useState(false)
 
   const [cName, setCName] = useState('')
   const [cBrand, setCBrand] = useState('')
@@ -67,6 +69,14 @@ export default function HomePage() {
     }
     el.addEventListener('scroll', onScroll, { passive: true })
     return () => el.removeEventListener('scroll', onScroll)
+  }, [])
+
+  useEffect(() => {
+    const el = vslDecoRef.current
+    if (!el) return
+    const obs = new IntersectionObserver(([e]) => { if (e.isIntersecting) { setVslDrawn(true); obs.disconnect() } }, { threshold: 0.3 })
+    obs.observe(el)
+    return () => obs.disconnect()
   }, [])
 
   const SECTIONS = ['hero','testimonials','vsl','contact','what-we-do','client-stories','team','contact-form']
@@ -180,16 +190,29 @@ export default function HomePage() {
       {/* VSL */}
       <section className="vsl-section" id="vsl">
         <div className="container">
-          <div className="vsl-inner reveal">
-            <h2 className="f-h1" style={{ marginBottom: 32 }}>90 seconds. Hear it from us.</h2>
-            <div className="vsl-ph">
-              <div className="vsl-play">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21" /></svg>
+          <div className="vsl-inner reveal" ref={vslDecoRef}>
+            <div>
+              <h2 className="f-h1" style={{ marginBottom: 32 }}>90 seconds. Hear it from us.</h2>
+              <div className="vsl-ph">
+                <div className="vsl-play">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polygon points="5,3 19,12 5,21" /></svg>
+                </div>
+                <p className="f-label" style={{ marginTop: 20 }}>Video coming soon</p>
               </div>
-              <p className="f-label" style={{ marginTop: 20 }}>Video coming soon</p>
+              <div style={{ marginTop: 32 }} className="reveal">
+                <a className="btn btn-gold" href="https://calendly.com/g-butcherbird/butcherbird-introduction-w-gascoyne" target="_blank" rel="noopener noreferrer">Book a Call</a>
+              </div>
             </div>
-            <div style={{ marginTop: 32 }} className="reveal">
-              <a className="btn btn-gold" href="https://calendly.com/g-butcherbird/butcherbird-introduction-w-gascoyne" target="_blank" rel="noopener noreferrer">Book a Call</a>
+            <div className="vsl-deco-wrap">
+              <svg className={`vsl-deco-svg${vslDrawn ? ' drawn' : ''}`} viewBox="0 0 240 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect className="vsl-line" style={{ '--l': '1120px', animationDelay: '0s' } as React.CSSProperties} x="10" y="10" width="220" height="340" />
+                <rect className="vsl-line" style={{ '--l': '640px', animationDelay: '0.9s' } as React.CSSProperties} x="60" y="80" width="120" height="200" />
+                <line className="vsl-line" style={{ '--l': '86px', animationDelay: '1.7s' } as React.CSSProperties} x1="10" y1="10" x2="60" y2="80" />
+                <line className="vsl-line" style={{ '--l': '86px', animationDelay: '1.85s' } as React.CSSProperties} x1="230" y1="10" x2="180" y2="80" />
+                <line className="vsl-line" style={{ '--l': '86px', animationDelay: '2s' } as React.CSSProperties} x1="10" y1="350" x2="60" y2="280" />
+                <line className="vsl-line" style={{ '--l': '86px', animationDelay: '2.15s' } as React.CSSProperties} x1="230" y1="350" x2="180" y2="280" />
+                <circle className="vsl-line" style={{ '--l': '88px', animationDelay: '2.5s' } as React.CSSProperties} cx="120" cy="180" r="14" />
+              </svg>
             </div>
           </div>
         </div>
