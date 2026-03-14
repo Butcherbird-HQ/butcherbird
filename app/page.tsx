@@ -158,26 +158,12 @@ export default function HomePage() {
                     {[
                       { text: 'Spending $1,500+/month on paid media and want to push harder' },
                       { text: 'Have a product people are already buying — and want to scale it' },
-                      { text: 'Want a team with genuine skin in the game, not account managers' },
+                      { text: 'Want a team to handle all your creative production end to end' },
+                      { text: 'Want a team who can own your entire performance marketing stack' },
                       { text: 'Ready to move fast and execute without hand-holding' },
                     ].map((item, i) => (
                       <li key={i} className="intro-item reveal" style={{ transitionDelay: `${i * 0.1}s` }}>
                         <span className="intro-icon-apply" />
-                        {item.text}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-                <div>
-                  <p className="intro-list-heading reveal">Probably not if</p>
-                  <ul className="intro-list">
-                    {[
-                      { text: 'Still testing your product or haven\'t proven demand yet' },
-                      { text: 'Need weekly updates and approval on every decision' },
-                      { text: 'Looking for a traditional agency to manage things for you' },
-                    ].map((item, i) => (
-                      <li key={i} className="intro-item reveal" style={{ transitionDelay: `${(i + 4) * 0.1}s` }}>
-                        <span className="intro-icon-skip" />
                         {item.text}
                       </li>
                     ))}

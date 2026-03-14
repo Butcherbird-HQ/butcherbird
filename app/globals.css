@@ -234,7 +234,7 @@ nav {
 .intro-title { font-weight: 700; font-size: clamp(28px, 4vw, 56px); line-height: 1; letter-spacing: -.02em; text-transform: uppercase; color: var(--black); }
 .intro-card-body { padding: 52px 64px; }
 .intro-body-lead { font-size: 16px; line-height: 1.8; color: var(--light); max-width: 620px; margin-bottom: 52px; }
-.intro-lists { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; margin-bottom: 52px; }
+.intro-lists { margin-bottom: 52px; }
 .intro-list-heading { font-weight: 700; font-size: 13px; letter-spacing: .18em; text-transform: uppercase; color: var(--gold); margin-bottom: 24px; }
 .intro-list { list-style: none; }
 .intro-item { display: flex; align-items: flex-start; gap: 16px; padding: 15px 0; border-bottom: 1px solid var(--border); font-size: 13px; letter-spacing: .06em; text-transform: uppercase; color: var(--light); line-height: 1.5; }
