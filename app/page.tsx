@@ -73,7 +73,7 @@ export default function HomePage() {
             from R2.2M<br />
             in ad spend.
           </h1>
-          <p className="f-italic anim d2" style={{ marginTop: 20, marginBottom: 0 }}>Within 7 months from launch.</p>
+          <p className="f-italic anim d2" style={{ marginTop: 20, marginBottom: 0 }}>Within 7 months from launch. Last updated Jan 2026.</p>
           <div style={{ maxWidth: 480, marginBottom: 48, marginTop: 32 }} className="anim d3">
             <p className="f-body">
               Butcherbird is a Cape Town-based growth agency. Paid media. Email marketing.
