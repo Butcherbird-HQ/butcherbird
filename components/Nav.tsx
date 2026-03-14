@@ -29,11 +29,6 @@ export default function Nav() {
             </Link>
           </li>
           <li>
-            <Link href="/work" className={pathname === '/work' ? 'active-link' : ''} data-p="work" onClick={closeMenu}>
-              Our Work
-            </Link>
-          </li>
-          <li>
             <Link href="/partner" className={pathname === '/partner' ? 'active-link' : ''} data-p="partner" onClick={closeMenu}>
               Partner
             </Link>

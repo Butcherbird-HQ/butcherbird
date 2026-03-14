@@ -40,7 +40,7 @@ export default function HomePage() {
           </div>
           <div style={{ display: 'flex', gap: 20, flexWrap: 'wrap' }} className="anim d4">
             <a className="btn btn-gold" href="https://calendly.com/g-butcherbird/butcherbird-introduction-w-gascoyne" target="_blank" rel="noopener noreferrer">Start Scaling Seriously</a>
-            <Link className="btn btn-outline" href="/work">See Our Work</Link>
+            <Link className="btn btn-outline" href="/portfolio">Our Portfolio</Link>
           </div>
         </div>
         <div className="hero-ghost">4.6×</div>
@@ -196,12 +196,9 @@ export default function HomePage() {
             <span className="sec-label-txt">Proof of work</span>
             <div className="sec-label-line" />
           </div>
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', marginBottom: 52, flexWrap: 'wrap', gap: 20 }}>
-            <div>
-              <h2 className="f-h1 reveal" style={{ marginBottom: 12 }}>Built from zero.<br />Documented in detail.</h2>
-              <p className="f-body reveal" style={{ maxWidth: 420 }}>Every number is real. Click any brand to see the full story.</p>
-            </div>
-            <Link className="btn btn-outline reveal" href="/work">Full client roster →</Link>
+          <div style={{ marginBottom: 52 }}>
+            <h2 className="f-h1 reveal" style={{ marginBottom: 12 }}>Built from zero.<br />Documented in detail.</h2>
+            <p className="f-body reveal" style={{ maxWidth: 420 }}>Every number is real. Click any brand to see the full story.</p>
           </div>
           <div className="cs-grid">
             {homeStudies.map((s) => (
