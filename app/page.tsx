@@ -317,6 +317,9 @@ export default function HomePage() {
                   <button className="cs-btn-creative" onClick={() => { setActiveTab('creative'); setActiveModal(s) }}>
                     View Creative Work
                   </button>
+                  <button className="cs-btn-story" onClick={() => { setActiveTab('story'); setActiveModal(s) }}>
+                    The Story
+                  </button>
                 </div>
               </div>
             </div>

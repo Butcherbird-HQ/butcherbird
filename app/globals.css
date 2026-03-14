@@ -290,6 +290,8 @@ nav {
 .cs-btn-perf:hover { background: var(--off-white); }
 .cs-btn-creative { flex: 1; padding: 16px 20px; font-weight: 700; font-size: 9px; letter-spacing: .2em; text-transform: uppercase; background: transparent; color: var(--off-white); border: 1px solid rgba(255,255,255,.2); cursor: pointer; font-family: inherit; transition: all .2s; }
 .cs-btn-creative:hover { background: var(--off-white); color: var(--black); border-color: var(--off-white); }
+.cs-btn-story { flex: 1; padding: 16px 20px; font-weight: 700; font-size: 9px; letter-spacing: .2em; text-transform: uppercase; background: transparent; color: var(--gold); border: 1px solid rgba(184,150,62,.35); cursor: pointer; font-family: inherit; transition: all .2s; }
+.cs-btn-story:hover { background: var(--gold); color: var(--black); border-color: var(--gold); }
 @media (max-width: 900px) { .cs-row { grid-template-columns: 1fr; } .cs-row-num { display: none; } .cs-row-img { min-height: 280px; } .cs-row-content { padding: 36px 28px; } }
 
 /* MODAL TABS */

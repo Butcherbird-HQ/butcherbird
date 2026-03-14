@@ -32,7 +32,7 @@ export const caseStudies: CaseStudy[] = [
       { val: 'Feb \'23', lbl: 'Active since' },
     ],
     story:
-      'BUUB launched in a saturated sunscreen market with zero brand recognition. We built the entire acquisition system from scratch — paid media, email, retail distribution. The pivotal insight came early: a simple product shot with direct copy at 11.83× ROAS massively outperformed expensive lifestyle creative. Static over video. Direct over aspirational. Every time. That same principle now underpins 400+ retail doors and a customer base built entirely on performance, not brand spend.',
+      'BUUB existed before Butcherbird did. Two external agencies came and went — thousands spent, nothing to show for it. Paid media felt broken. So we built Butcherbird to fix it, and BUUB was the first brand we ran the new system on.\n\nThe insight came fast and it was brutal in its simplicity: a plain product shot with direct copy hit 11.83× ROAS and made every piece of expensive lifestyle content look stupid by comparison. Static over video. Product over story. Direct over aspirational. Every single time.\n\nWe scaled what worked and killed everything else. 333 purchases in a single month. R218,000+ in revenue. One ad alone generated R55,000 at 7.37× ROAS.\n\nThen the data became the pitch. BUUB walked into Dis-Chem and Wellness Warehouse with real purchase volume and a clear trajectory. The buyers said yes. A brand that started at beach markets now sits on shelves in 400+ stores nationwide.\n\nBUUB is the proof of concept for everything Butcherbird does. The principles it validated — static over video, direct messaging, relentless creative testing — run through every brand we\'ve built since.',
   },
   {
     id: 'schnozz',
@@ -49,7 +49,7 @@ export const caseStudies: CaseStudy[] = [
       { val: 'Dec \'24', lbl: 'Active since' },
     ],
     story:
-      "Schnozz started as a single nasal strip SKU. Eight months later: Kiddies strips, Mouth Tape, retail distribution across 200+ doors including Sportsman's Warehouse and CNA, and over 20,000 paying customers. The UGC testimonial creative achieved R47 cost-per-acquisition — the lowest in the portfolio. This is what happens when you treat a health product like a performance brand from day one.",
+      "Most brands launch with a landing page and a prayer. Schnozz launched with an army.\n\n300 ambassadors assembled before a single ad ran. Athletes, wellness creators, sleep coaches, biohackers — briefed to try the product, film it, and post it. Over 2 million organic views before we spent a rand on media. By the time paid went live, people were already searching for it.\n\nFull-funnel from day one. Prospecting creative built from the best ambassador content — real faces, real reactions, no scripts. The creative system never stopped: a Sea Point testimonial hit 6.62× ROAS. A hayfever static peaked at 8.60× in a single day. A kids' mouth-breathing angle — first to market in South Africa — hit 7.37×. Every week, winners got more budget.\n\nR500,000+ in online revenue in month three from launch. 8.20× ROAS in the strongest week. 2,133 purchases in a single month.\n\nThen the data opened doors that cold calls never could. Schnozz walked into Sportsman's Warehouse, Cape Union Mart, and Wellness Warehouse with proof of demand. 200+ retail doors later, a brand that started as a single SKU now has Kiddies Strips, Mouth Tape, and a US expansion already underway.\n\nPeople stopped saying nasal strips. They started saying Schnozz strips. That's the difference between a product and a brand.",
   },
   {
     id: 'superior',
@@ -66,7 +66,7 @@ export const caseStudies: CaseStudy[] = [
       { val: 'Since \'23', lbl: 'Active since' },
     ],
     story:
-      'Superior proved that growth does not always come through paid acquisition. By building an agent network model, we created a distribution engine that compounds without media spend — now moving over 100,000 units monthly across a network of 4,000+ active agents. When paid media does run, the results speak: 11.91× ROAS on an average daily budget of R6. The brand is a proof of concept for what distribution-first thinking looks like at scale.',
+      'Before Butcherbird, Superior was a few hundred reps going door to door, WhatsApp message by WhatsApp message. Great product — French oils, ISO 22716 certified. Linear growth. One conversation, one agent, one sale at a time. With a ceiling built into the model.\n\nWe rebranded it first. New visual identity. New positioning. Creative that made a R70 fragrance feel like it belonged next to the designers it was inspired by. The product always had the quality — the brand now matched it.\n\nThen we built two machines simultaneously.\n\nMachine 1: Agent recruitment. "Buy for R35, sell for R70 — 100% profit on every bottle." Simple, direct, mathematically undeniable. Static ads outperformed video every time. The math did the selling. Dozens of angles tested weekly — winners scaled, losers cut.\n\nMachine 2: Direct to consumer. Running in parallel. Buy 2 Get 1 Free. Designer comparison ads. Two audiences, two campaigns, one brand growing from both ends at once.\n\nFrom hundreds of reps to a national network. 100,000+ units per month. 4,000+ active agents. Top creative at 8.28× ROAS. Distribution across South Africa, with Zimbabwe, Mozambique, Lesotho, Eswatini, and Namibia already underway.\n\nSuperior is proof that the biggest growth lever isn\'t always paid acquisition. Sometimes it\'s building the right distribution model — and then running performance media on top of it.',
   },
   {
     id: 'helpdesk',
@@ -128,7 +128,7 @@ export const caseStudies: CaseStudy[] = [
     metrics: [
       { val: 'Awareness', lbl: 'Campaign objective' },
       { val: 'Meta', lbl: 'Primary channel' },
-      { val: '4 SKUs', lbl: 'Products covered' },
+      { val: 'SA-wide', lbl: 'Market reach' },
       { val: 'Retail', lbl: 'Primary distribution' },
     ],
     story:
@@ -139,8 +139,8 @@ export const caseStudies: CaseStudy[] = [
     brand: 'KOKEE',
     tag: 'Sports Nutrition',
     category: 'client',
-    subtitle: 'The one we\'re still fighting for',
-    desc: "The one we're still fighting for. A 27× ROAS on a single ad. 41% revenue growth in February. We haven't cracked it yet — and we're still here.",
+    subtitle: 'Competitive market. Systematic approach. Building momentum.',
+    desc: "South Africa's most competitive hydration category. A 27× ROAS on a single ad. 41% revenue growth in one month. The system working through a hard problem in real time.",
     metrics: [
       { val: '27×', lbl: 'Best creative ROAS' },
       { val: '41%', lbl: 'Revenue growth (Feb)' },
@@ -148,7 +148,7 @@ export const caseStudies: CaseStudy[] = [
       { val: 'Oct \'25', lbl: 'Active since' },
     ],
     story:
-      "We've been working with Kokee since October 2025. And we'll be honest — we haven't cracked it yet.\n\nSouth African hydration is one of the most competitive categories in e-commerce. The big players spend aggressively, bid high, and dominate the auction. When you can't outspend the competition, you have to outsmart them.\n\nThere have been glimpses. A single ad hitting 27× ROAS on a Tuesday. A week where cost per purchase dropped from R500 to R199. A Family Offer creative that was the best thing in the account — and got killed too early.\n\nWe could have walked away. The numbers aren't portfolio-worthy. There's no 6× ROAS headline to put on a slide.\n\nBut that's not how we work.\n\nWe restructured the entire account — shifted from warm-only targeting that had exhausted itself to proper broad prospecting and retargeting. We've been testing offer angles, problem-agitation hooks, and retargeting reminders to find what sticks.\n\nRevenue climbed 41% in February. The structure is healthier. The testing system is feeding us real data instead of guesses.\n\nEvery agency has a highlight reel. The brands that separate good agencies from great ones are the ones like Kokee — where the market is brutal, the budget is tight, and the easy wins don't exist. Where the only way through is relentless testing, honest assessment, and refusing to give up on a product you believe in.\n\nWe're incentivised to make Kokee work — our fee is tied to their revenue. When they win, we win. When they struggle, we feel it. That's by design.\n\nKokee's chapter isn't finished. We're still here. Still testing. Still fighting.",
+      "South African hydration is one of the most competitive categories in e-commerce. The big players spend aggressively, bid high, and dominate the auction. When you can't outspend the competition — and Kokee can't — you have to outsmart them.\n\nKokee makes natural, zero-sugar electrolyte hydration. Powder-and-scoop, everyday format — not the kind marketed at elite athletes with neon packaging. The kind you mix into a glass of water before work, or into your kid's bottle before school. People who try it, love it. The product has retail placement in Faithful to Nature and Wellness Warehouse. The challenge is the market.\n\nWe've been working with Kokee since October 2025. In that time: a single ad hit 27× ROAS on a Tuesday. A week where cost per purchase dropped from R500 to R199. A Family Offer creative that became the best-performing asset in the account. Revenue climbed 41% in February alone.\n\nThe process is deliberate. We restructured the entire account — shifted from warm-only targeting that had exhausted itself to a proper broad prospecting and retargeting architecture. We've been running systematic angle testing: offer hooks, problem-agitation, retargeting sequences. Every week, more data. Every week, the signal gets cleaner.\n\nOur fee is tied to Kokee's revenue. When they grow, we earn. That's not a line — it's the reason we're still here, still building, still finding the next angle instead of moving on to an easier account.\n\nKokee's trajectory is pointing in one direction. The category is hard. The momentum is real.",
   },
   {
     id: 'shootstudios',
@@ -160,7 +160,7 @@ export const caseStudies: CaseStudy[] = [
     metrics: [
       { val: '7×', lbl: 'Ad return' },
       { val: 'R21K', lbl: 'Bookings from R3K' },
-      { val: 'Coaching', lbl: 'Service type' },
+      { val: 'Content Studio', lbl: 'Service type' },
       { val: 'Nov \'25', lbl: 'Active since' },
     ],
     story:
