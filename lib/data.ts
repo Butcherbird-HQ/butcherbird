@@ -20,7 +20,7 @@ export const caseStudies: CaseStudy[] = [
   {
     id: 'buub',
     brand: 'BUUB',
-    tag: 'Organic Skincare · DTC · Internal Brand',
+    tag: 'Organic Skincare',
     category: 'internal',
     subtitle: 'Organic SPF50 — zero to 10,000+ customers',
     desc: 'Built from zero to 10,000+ customers. An organic SPF50 brand that proved direct product messaging beats lifestyle content every single time.',
@@ -36,7 +36,7 @@ export const caseStudies: CaseStudy[] = [
   {
     id: 'schnozz',
     brand: 'SCHNOZZ',
-    tag: 'Health & Wellness · DTC + Retail · Internal Brand',
+    tag: 'Health & Wellness',
     category: 'internal',
     subtitle: 'Nasal strips to multi-product retail brand',
     desc: '20,000+ customers, 182+ retail doors, multiple product extensions — built in under 8 months from a single SKU.',
@@ -52,7 +52,7 @@ export const caseStudies: CaseStudy[] = [
   {
     id: 'superior',
     brand: 'SUPERIOR',
-    tag: 'Fragrance · Agent Network · Internal Brand',
+    tag: 'Fragrance',
     category: 'internal',
     subtitle: 'Agent network model — 50,000+ monthly units',
     desc: 'A fragrance brand that scales without ad spend — through an agent distribution model that now moves 50,000+ units monthly.',
@@ -68,7 +68,7 @@ export const caseStudies: CaseStudy[] = [
   {
     id: 'helpdesk',
     brand: 'HELPDESK',
-    tag: 'Consumer Tech · App · MENA Markets',
+    tag: 'Consumer Technology',
     category: 'client',
     subtitle: 'App across MENA — paid media + email',
     desc: 'Digital service platform launched across MENA regions. Meta acquisition + email nurturing drove rapid user growth.',
@@ -84,7 +84,7 @@ export const caseStudies: CaseStudy[] = [
   {
     id: 'lakrids',
     brand: 'LAKRIDS',
-    tag: 'Premium Confectionery · DTC · Client',
+    tag: 'Premium Confectionery',
     category: 'client',
     subtitle: 'Luxury confectionery — extraordinary peaks',
     desc: 'A luxury liquorice brand with extraordinary ad performance — including a 45.23× ROAS on Black Friday that was ended at its peak.',
@@ -100,7 +100,7 @@ export const caseStudies: CaseStudy[] = [
   {
     id: 'numuti',
     brand: 'NUMUTI',
-    tag: 'Wellness · DTC · Client',
+    tag: 'Functional Wellness',
     category: 'client',
     subtitle: 'Wellness DTC — 115× ROAS in a single day',
     desc: 'A wellness brand that hit 115× ROAS in a single day — on a budget of R32/day.',
@@ -116,7 +116,7 @@ export const caseStudies: CaseStudy[] = [
   {
     id: 'bonnie',
     brand: 'BONNIE BIO',
-    tag: 'Wellness · DTC · Client',
+    tag: 'Sustainable Household',
     category: 'client',
     subtitle: 'Coming soon — details to follow',
     desc: 'Full case study coming soon.',
@@ -129,7 +129,7 @@ export const caseStudies: CaseStudy[] = [
   {
     id: 'kokee',
     brand: 'KOKEE',
-    tag: 'DTC · Client',
+    tag: 'Sports Nutrition',
     category: 'client',
     subtitle: 'Coming soon — details to follow',
     desc: 'Full case study coming soon.',
@@ -142,7 +142,7 @@ export const caseStudies: CaseStudy[] = [
   {
     id: 'shootstudios',
     brand: 'SHOOT STUDIOS',
-    tag: 'Creative · Client',
+    tag: 'Creative Studio',
     category: 'client',
     subtitle: 'Coming soon — details to follow',
     desc: 'Full case study coming soon.',
@@ -155,7 +155,7 @@ export const caseStudies: CaseStudy[] = [
   {
     id: 'hiba',
     brand: 'HIBA BALFQIH',
-    tag: 'Personal Brand · Coaching · Client',
+    tag: 'Online Coaching',
     category: 'client',
     subtitle: 'School of Mindhacking — coming soon',
     desc: 'Full case study coming soon.',
