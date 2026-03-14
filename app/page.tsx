@@ -95,15 +95,15 @@ export default function HomePage() {
           <h2 className="f-h1 reveal" style={{ marginBottom: 0 }}>What our<br />clients say.</h2>
           <div className="testi-grid">
             {[
-              { brand: 'BUUB', person: 'Larneke Van Vyl', role: 'Brand Manager', location: 'Cape Town', oneliner: "SA's first 100% certified organic sunscreen brand — disrupting the category from the ground up" },
-              { brand: 'SCHNOZZ', person: 'Ilan Tait', role: 'Co-Founder', location: 'Johannesburg', oneliner: "SA's leading nasal strip brand — from a single SKU to 182+ retail doors in under 12 months" },
-              { brand: 'LAKRIDS', person: 'Catherine Bullough', role: 'SA Licence Owner', location: 'Cape Town', oneliner: "Denmark's cult-favourite luxury liquorice brand — Bülow's iconic confectionery brought to South Africa" },
-              { brand: 'NUMUTI', person: 'Daniel Fine', role: 'Founder', location: 'Cape Town', oneliner: "Holistic wellness brand crafting premium supplements and self-care rituals for modern high-performers" },
-              { brand: 'BONNIE BIO', person: 'Frank McDouall', role: 'Owner', location: 'Johannesburg', oneliner: "Natural & organic wellness brand — clean, honest formulations for everyday health" },
-              { brand: 'HELPDESK', person: 'Mohammed Al Sabbagh', role: 'Founder', location: 'Dubai', oneliner: "On-demand home services app — connecting UAE residents to trusted professionals, instantly" },
-              { brand: 'HIBA BALFAQIH', person: 'Hiba Balfaqih', role: 'Founder', location: 'New York', oneliner: "School of Mindhacking — transformational coaching for high-performance individuals rewriting their story" },
-              { brand: 'SHOOT STUDIOS', person: 'Elad', role: 'Owner', location: 'Cape Town', oneliner: "Cape Town's creative production house — photography, video and content for brands that demand attention" },
-              { brand: 'KOKEE', person: 'Chris', role: 'Founder', location: 'Johannesburg', oneliner: "Premium DTC lifestyle brand — built for the modern South African consumer" },
+              { brand: 'BUUB', person: 'Larneke Van Vyl', role: 'Brand Manager', location: 'Cape Town', oneliner: "100% organic, reef-safe SPF50 sunscreen — Original, Tinted, Kids, and Mini" },
+              { brand: 'SCHNOZZ', person: 'Ilan Tait', role: 'Co-Founder', location: 'Johannesburg', oneliner: "Adhesive nasal strips that open airways for better breathing during sleep, sport, and everyday life" },
+              { brand: 'LAKRIDS', person: 'Catherine Bullough', role: 'SA Licence Owner', location: 'Cape Town', oneliner: "Gourmet Danish liquorice — plain and chocolate-coated, made in small batches by Lakrids by Bülow" },
+              { brand: 'NUMUTI', person: 'Daniel Fine', role: 'Founder', location: 'Cape Town', oneliner: "Functional wellness drinks made with African botanicals and nootropics — Focus, Calm, and Mood blends" },
+              { brand: 'BONNIE BIO', person: 'Frank McDouall', role: 'Owner', location: 'Johannesburg', oneliner: "Certified compostable, plant-based household products — bags, cling wrap, straws, and air fryer liners" },
+              { brand: 'HELPDESK', person: 'Mohammed Al Sabbagh', role: 'Founder', location: 'Dubai', oneliner: "On-demand expert platform connecting users to real human specialists via audio, video, and screen share" },
+              { brand: 'HIBA BALFAQIH', person: 'Hiba Balfaqih', role: 'Founder', location: 'New York', oneliner: "School of Mindhacking — online coaching helping women break subconscious patterns and redesign their lives" },
+              { brand: 'SHOOT STUDIOS', person: 'Elad', role: 'Owner', location: 'Cape Town', oneliner: "Professional photography and creative studio rental space in Woodstock, Cape Town" },
+              { brand: 'KOKEE', person: 'Chris', role: 'Founder', location: 'Johannesburg', oneliner: "Natural electrolyte powder made with coconut water and Himalayan salt — everyday hydration, simplified" },
             ].map((t) => (
               <div key={t.brand} className="testi-card reveal">
                 <div className="testi-video-ph">
