@@ -1,4 +1,5 @@
-import Link from 'next/link'
+'use client'
+
 import Footer from '@/components/Footer'
 import RevealOnScroll from '@/components/RevealOnScroll'
 
@@ -14,7 +15,7 @@ const schnozzTimeline = [
   { date: 'Month 1 · Jul 2025', text: 'Single SKU. Nasal strips. DTC only. The playbook from BUUB deployed from day one.' },
   { date: 'Month 2–3 · Aug–Sep 2025', text: 'Real Reactions UGC creative: 232 purchases at R62 CPA. Testimonial format outperforms branded content. Full UGC strategy built around this insight.' },
   { date: 'Month 4 · Oct 2025', text: 'First retail conversation opened. Product-market fit clear from DTC data. Sportsman\'s Warehouse approached with performance data as the pitch deck.' },
-  { date: 'Month 5–6 · Nov–Dec 2025', text: 'Kiddies Strips and Mouth Tape extensions launched. Retail confirmed: Sportsman\'s Warehouse and CNA. 182+ doors open.' },
+  { date: 'Month 5–6 · Nov–Dec 2025', text: 'Kiddies Strips and Mouth Tape extensions launched. Retail confirmed: Sportsman\'s Warehouse and CNA. 200+ doors open.' },
   { date: 'Month 7–8 · Jan–Mar 2026', text: '20,000+ customers. Testimonial UGC hits R47 CPA — lowest in account history. Strongest video performance in the portfolio.' },
 ]
 
@@ -26,14 +27,12 @@ export default function PortfolioPage() {
       {/* HERO */}
       <section className="port-hero">
         <div className="container">
-          <div className="sec-label anim d1">
-            <span className="sec-label-txt">Our portfolio brands</span>
-            <div className="sec-label-line" />
-          </div>
-          <h1 className="f-display anim d2" style={{ maxWidth: 700, marginBottom: 22 }}>
+          <div className="gold-rule anim d1" />
+          <p className="f-gold anim d1" style={{ marginBottom: 20 }}>Our portfolio brands</p>
+          <h1 className="f-display anim d2" style={{ maxWidth: 700, marginBottom: 24 }}>
             Brands we built<br />from <span className="gold">nothing.</span>
           </h1>
-          <p className="f-italic anim d3" style={{ maxWidth: 480 }}>
+          <p className="f-italic anim d3" style={{ maxWidth: 520 }}>
             Not inherited accounts. Not optimised campaigns. Built from nothing, scaled to results, documented in detail.
           </p>
         </div>
@@ -49,10 +48,11 @@ export default function PortfolioPage() {
                 <div className="brand-float"><span className="f-label">[Product detail]</span></div>
               </div>
               <p className="f-label" style={{ marginTop: 10, textAlign: 'center' }}>[BUUB product photography · buub.co.za]</p>
-              <div className="kpis">
+              <div className="kpis kpis-4">
                 <div className="kpi"><div className="kpi-val">3.56<span className="gold">×</span></div><div className="kpi-lbl">Blended ROAS</div></div>
                 <div className="kpi"><div className="kpi-val">10<span className="gold">K+</span></div><div className="kpi-lbl">Customers</div></div>
                 <div className="kpi"><div className="kpi-val">11.83<span className="gold">×</span></div><div className="kpi-lbl">Best creative</div></div>
+                <div className="kpi"><div className="kpi-val">400<span className="gold">+</span></div><div className="kpi-lbl">Retail stores</div></div>
               </div>
             </div>
             <div>
@@ -81,26 +81,26 @@ export default function PortfolioPage() {
       </section>
 
       {/* SCHNOZZ */}
-      <section className="brand-sec">
+      <section className="brand-sec brand-sec-light">
         <div className="container">
           <div className="brand-inner brand-flip">
             <div className="brand-img-wrap reveal">
-              <div className="brand-main-ph" style={{ background: '#1a1a1a' }}>
+              <div className="brand-main-ph">
                 <div className="brand-main-lbl">SCHNOZZ</div>
                 <div className="brand-float" style={{ right: 'auto', left: -24 }}><span className="f-label">[UGC still]</span></div>
               </div>
-              <p className="f-label" style={{ marginTop: 10, textAlign: 'center' }}>[Schnozz photography · schnozzstrips.store]</p>
+              <p className="f-label" style={{ marginTop: 10, textAlign: 'center', color: 'rgba(0,0,0,0.4)' }}>[Schnozz photography · schnozzstrips.store]</p>
               <div className="kpis">
                 <div className="kpi"><div className="kpi-val">3.10<span className="gold">×</span></div><div className="kpi-lbl">Blended ROAS</div></div>
                 <div className="kpi"><div className="kpi-val">20<span className="gold">K+</span></div><div className="kpi-lbl">Customers</div></div>
-                <div className="kpi"><div className="kpi-val">182<span className="gold">+</span></div><div className="kpi-lbl">Retail doors</div></div>
+                <div className="kpi"><div className="kpi-val">200<span className="gold">+</span></div><div className="kpi-lbl">Retail doors</div></div>
               </div>
             </div>
             <div>
               <div className="gold-rule reveal-l" />
               <p className="f-gold reveal-l" style={{ marginBottom: 12 }}>02 — Health & Wellness · schnozzstrips.store</p>
-              <h2 className="f-h1 reveal-l" style={{ marginBottom: 18 }}>Schnozz Strips</h2>
-              <p className="f-body reveal-l" style={{ marginBottom: 32 }}>
+              <h2 className="f-h1 reveal-l" style={{ marginBottom: 18, color: 'var(--black)' }}>Schnozz Strips</h2>
+              <p className="f-body reveal-l" style={{ marginBottom: 32, color: 'rgba(0,0,0,0.6)' }}>
                 From a single nasal strip SKU to a multi-product health brand with retail presence in
                 Sportsman&apos;s Warehouse and CNA. Schnozz is the story of what happens when you follow
                 the data without hesitation.
@@ -108,10 +108,10 @@ export default function PortfolioPage() {
               <div className="timeline reveal-l">
                 {schnozzTimeline.map((item) => (
                   <div key={item.date} className="tl-item">
-                    <div className="tl-dot"><div className="tl-dot-inner" /></div>
+                    <div className="tl-dot" style={{ background: '#fff' }}><div className="tl-dot-inner" /></div>
                     <div>
                       <div className="tl-date">{item.date}</div>
-                      <p className="tl-txt">{item.text}</p>
+                      <p className="tl-txt" style={{ color: 'rgba(0,0,0,0.6)' }}>{item.text}</p>
                     </div>
                   </div>
                 ))}
@@ -126,6 +126,7 @@ export default function PortfolioPage() {
         <div className="container">
           <div className="coming-soon-box reveal">
             <div className="coming-inner">
+              <div className="gold-rule" style={{ margin: '0 auto 20px' }} />
               <p className="f-gold" style={{ marginBottom: 14 }}>03 — Coming 2026</p>
               <h2 className="f-h1" style={{ marginBottom: 18 }}>Gobblers<br /><span className="gold">Functional Gummies</span></h2>
               <p className="f-italic" style={{ maxWidth: 540, margin: '0 auto 28px' }}>
@@ -139,20 +140,13 @@ export default function PortfolioPage() {
                 <div className="kpi" style={{ textAlign: 'center' }}><div className="kpi-val gold">∞</div><div className="kpi-lbl">Range potential</div></div>
               </div>
               <p className="f-label" style={{ marginBottom: 20 }}>Interested in being part of the launch? We&apos;re open to strategic partners.</p>
-              <Link className="btn btn-gold" href="/partner">Explore Partnership</Link>
+              <a className="btn btn-gold" href="https://calendly.com/g-butcherbird/butcherbird-introduction-w-gascoyne" target="_blank" rel="noopener noreferrer">Book a Call</a>
             </div>
           </div>
         </div>
       </section>
 
-      <footer className="footer">
-        <div className="container">
-          <div className="footer-inner">
-            <p className="f-label">butcherbird.global · Cape Town · 2026</p>
-            <a className="btn btn-gold" href="https://calendly.com/g-butcherbird/butcherbird-introduction-w-gascoyne" target="_blank" rel="noopener noreferrer">Book an Intro Call</a>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </>
   )
 }
