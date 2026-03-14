@@ -7,8 +7,8 @@ export default function CustomCursor() {
   const ringRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
-    const dot = dotRef.current
-    const ring = ringRef.current
+    const dot = dotRef.current as HTMLDivElement
+    const ring = ringRef.current as HTMLDivElement
     if (!dot || !ring) return
 
     let mouseX = -100
