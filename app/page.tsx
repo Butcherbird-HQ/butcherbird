@@ -42,7 +42,7 @@ function CountUp({ to, decimals = 0 }: { to: number; decimals?: number }) {
 
 export default function HomePage() {
   const [activeModal, setActiveModal] = useState<CaseStudy | null>(null)
-  const [activeTab, setActiveTab] = useState<'performance' | 'creative'>('performance')
+  const [activeTab, setActiveTab] = useState<'performance' | 'creative' | 'story'>('performance')
   const testiRef = useRef<HTMLDivElement>(null)
   const [testiProgress, setTestiProgress] = useState(0)
 
@@ -152,7 +152,6 @@ export default function HomePage() {
               { brand: 'NUMUTI', person: 'Daniel Fine', role: 'Founder', location: 'Cape Town', oneliner: "Functional wellness drinks made with African botanicals and nootropics — Focus, Calm, and Mood blends" },
               { brand: 'BONNIE BIO', person: 'Frank McDouall', role: 'Owner', location: 'Johannesburg', oneliner: "Certified compostable, plant-based household products — bags, cling wrap, straws, and air fryer liners" },
               { brand: 'HELPDESK', person: 'Mohammed Al Sabbagh', role: 'Founder', location: 'Dubai', oneliner: "On-demand expert platform connecting users to real human specialists via audio, video, and screen share" },
-              { brand: 'HIBA BALFAQIH', person: 'Hiba Balfaqih', role: 'Founder', location: 'New York', oneliner: "School of Mindhacking — online coaching helping women break subconscious patterns and redesign their lives" },
               { brand: 'SHOOT STUDIOS', person: 'Elad', role: 'Owner', location: 'Cape Town', oneliner: "Professional photography and creative studio rental space in Woodstock, Cape Town" },
               { brand: 'KOKEE', person: 'Chris', role: 'Founder', location: 'Johannesburg', oneliner: "Natural electrolyte powder made with coconut water and Himalayan salt — everyday hydration, simplified" },
             ].map((t) => (

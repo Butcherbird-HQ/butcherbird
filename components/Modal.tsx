@@ -6,11 +6,11 @@ import { CaseStudy } from '@/lib/data'
 interface ModalProps {
   study: CaseStudy | null
   onClose: () => void
-  initialTab?: 'performance' | 'creative'
+  initialTab?: 'performance' | 'creative' | 'story'
 }
 
 export default function Modal({ study, onClose, initialTab = 'performance' }: ModalProps) {
-  const [tab, setTab] = useState<'performance' | 'creative'>(initialTab)
+  const [tab, setTab] = useState<'performance' | 'creative' | 'story'>(initialTab)
 
   useEffect(() => { setTab(initialTab) }, [initialTab, study])
 
@@ -45,6 +45,9 @@ export default function Modal({ study, onClose, initialTab = 'performance' }: Mo
           <button className={`modal-tab${tab === 'creative' ? ' active' : ''}`} onClick={() => setTab('creative')}>
             Creative Work
           </button>
+          <button className={`modal-tab${tab === 'story' ? ' active' : ''}`} onClick={() => setTab('story')}>
+            The Story
+          </button>
         </div>
 
         <div className="modal-media">
@@ -73,6 +76,23 @@ export default function Modal({ study, onClose, initialTab = 'performance' }: Mo
                     <span className="modal-media-ph-txt">{type} — pending</span>
                   </div>
                 ))
+          )}
+          {tab === 'story' && (
+            <div style={{ padding: '8px 0 16px' }}>
+              {study.story.split('\n\n').map((para, i) => (
+                <p
+                  key={i}
+                  style={{
+                    fontSize: 14,
+                    lineHeight: 1.85,
+                    color: 'var(--light)',
+                    marginBottom: 20,
+                  }}
+                >
+                  {para}
+                </p>
+              ))}
+            </div>
           )}
         </div>
       </div>
