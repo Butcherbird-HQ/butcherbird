@@ -97,25 +97,29 @@ export default function HomePage() {
             <div className="sec-label-line" />
           </div>
           <div className="testi-grid">
-            <div className="testi-card reveal">
-              <div className="video-ph">
-                <div className="play-btn" />
-                <p className="f-label">Client video testimonial</p>
-                <p className="f-label" style={{ marginTop: 4 }}>[Upload to Tian — embed here]</p>
+            {[
+              { brand: 'BUUB', oneliner: 'Organic SPF50 sunscreen — DTC + retail' },
+              { brand: 'SCHNOZZ', oneliner: 'Nasal & mouth tape strips — DTC + 182 retail doors' },
+              { brand: 'LAKRIDS', oneliner: 'Premium liquorice confectionery — international DTC' },
+              { brand: 'NUMUTI', oneliner: 'Wellness supplements — DTC' },
+              { brand: 'BONNIE BIO', oneliner: 'Organic wellness brand — DTC' },
+              { brand: 'HELPDESK', oneliner: 'Digital services platform — MENA markets' },
+              { brand: 'HIBA BALFAQIH', oneliner: 'School of Mindhacking — coaching & personal brand' },
+              { brand: 'SHOOT STUDIOS', oneliner: 'Creative production studio — Cape Town' },
+              { brand: 'KOKEE', oneliner: 'DTC lifestyle brand' },
+            ].map((t) => (
+              <div key={t.brand} className="testi-card reveal">
+                <div className="testi-video-ph">
+                  <div className="play-btn" />
+                </div>
+                <div className="testi-info">
+                  <div className="testi-brand">{t.brand}</div>
+                  <div className="testi-person">[Name]</div>
+                  <div className="testi-location">[City, Country]</div>
+                  <div className="testi-oneliner">{t.oneliner}</div>
+                </div>
               </div>
-              <div style={{ fontWeight: 700, fontSize: 10, letterSpacing: '.12em', textTransform: 'uppercase', marginBottom: 4 }}>[Client Name]</div>
-              <div className="f-label">[Title · Company · Location]</div>
-            </div>
-            <div className="testi-card reveal">
-              <p className="testi-quote">&ldquo;[Client quote here — gather from Hiba or Helpdesk. Ideal: specific result, mentions the operator difference, would refer.]&rdquo;</p>
-              <div style={{ fontWeight: 700, fontSize: 10, letterSpacing: '.12em', textTransform: 'uppercase', marginBottom: 4 }}>[Client Name]</div>
-              <div className="f-label">[Title · Company]</div>
-            </div>
-            <div className="testi-card reveal">
-              <p className="testi-quote">&ldquo;[Second quote. Tone: surprised by depth of thinking, specific about a result, unprompted endorsement of the team.]&rdquo;</p>
-              <div style={{ fontWeight: 700, fontSize: 10, letterSpacing: '.12em', textTransform: 'uppercase', marginBottom: 4 }}>[Client Name]</div>
-              <div className="f-label">[Title · Company]</div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
