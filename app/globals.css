@@ -230,9 +230,8 @@ nav {
 .testi-arrow-hint::after { content: ''; width: 10px; height: 10px; border-right: 2px solid var(--gold); border-top: 2px solid var(--gold); transform: rotate(45deg); }
 
 /* INTRO CARD */
-.intro-card { background: var(--dark2); box-shadow: 0 32px 96px rgba(0,0,0,0.7); overflow: hidden; }
-.intro-card-header { background: #fff; padding: 52px 64px 48px; }
-.intro-title { font-weight: 700; font-size: clamp(28px, 4vw, 56px); line-height: 1; letter-spacing: -.02em; text-transform: uppercase; color: var(--black); margin-top: 12px; }
+.intro-card { background: var(--dark2); box-shadow: 0 32px 96px rgba(0,0,0,0.5); overflow: hidden; }
+.intro-title { font-weight: 700; font-size: clamp(28px, 4vw, 56px); line-height: 1; letter-spacing: -.02em; text-transform: uppercase; color: var(--black); }
 .intro-card-body { padding: 52px 64px; }
 .intro-lists { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; margin-bottom: 52px; }
 .intro-list { list-style: none; }

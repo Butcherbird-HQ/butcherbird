@@ -141,13 +141,11 @@ export default function HomePage() {
       </section>
 
       {/* INTRO CALL */}
-      <section className="section" style={{ background: 'var(--black)' }} id="contact">
+      <section className="section" style={{ background: '#fff' }} id="contact">
         <div className="container">
+          <p className="f-label" style={{ marginBottom: 14, color: 'rgba(0,0,0,0.4)' }}>Introductory Call · 20 Minutes</p>
+          <h2 className="intro-title reveal" style={{ marginBottom: 48 }}>A conversation.<br />Not a pitch.</h2>
           <div className="intro-card reveal">
-            <div className="intro-card-header">
-              <p className="f-label" style={{ marginBottom: 14 }}>Introductory Call · 20 Minutes</p>
-              <h2 className="intro-title">A conversation.<br />Not a pitch.</h2>
-            </div>
             <div className="intro-card-body">
               <p className="f-body" style={{ maxWidth: 540, marginBottom: 48 }}>
                 20 minutes. We look at your brand, tell you what we see, and work out whether there&apos;s
