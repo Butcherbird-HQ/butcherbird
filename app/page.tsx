@@ -281,8 +281,8 @@ export default function HomePage() {
                 { initials: 'GC', name: 'Gascoyne Clarke', role: 'CEO' },
                 { initials: 'RC', name: 'Richard Clarke', role: 'CFO' },
                 { initials: 'IT', name: 'Ilan Tait', role: 'Portfolio Manager' },
-                { initials: 'KM', name: 'Kathleen Murphy', role: 'Creative Director' },
-                { initials: 'T', name: 'Tian', role: 'Paid Media Manager' },
+                { initials: 'KM', name: 'Kathleen Murphy', role: 'Marketing Director' },
+                { initials: 'TB', name: 'Tian Bester', role: 'Paid Media Manager' },
               ].map((member) => (
                 <div key={member.name} className="team-card">
                   <div className="team-img-ph"><div className="team-img-lbl">{member.initials}</div></div>
@@ -299,6 +299,15 @@ export default function HomePage() {
             <p className="f-gold" style={{ marginBottom: 28, letterSpacing: '0.2em' }}>Team</p>
             <div className="team-grid-staff">
               {[
+                { initials: 'RT', name: 'Rhett Tomlinson', role: 'Graphic Design & Creative' },
+                { initials: 'KF', name: 'Kaylee Frankson', role: 'Email Marketing Manager' },
+                { initials: 'MS', name: 'Morgan Scott', role: 'Videographer & Video Editor' },
+                { initials: 'LN', name: 'Liam Nymphe', role: 'Videographer & Video Editor' },
+                { initials: 'LVZ', name: 'Larneke Van Zyl', role: 'Social Media Manager' },
+                { initials: 'JF', name: 'Jordyn Fester', role: 'Events Manager' },
+                { initials: 'AS', name: 'Aamir Sayed', role: 'IT & Technical Infrastructure' },
+                { initials: 'ZE', name: 'Zubayr Ederies', role: 'Graphic Design & Web Development' },
+                { initials: 'MC', name: 'Maximus Clarke', role: 'Warehouse & Logistics Manager' },
                 { initials: 'NC', name: 'Nikki Clarke', role: 'Administration & HR' },
                 { initials: 'CT', name: 'Charmaine Trevisan', role: 'Accounts' },
                 { initials: 'CB', name: 'Claudia Barnard', role: 'Graphic Design' },

@@ -307,14 +307,14 @@ nav {
 
 /* TEAM */
 .team-grid-mgmt { display: grid; grid-template-columns: repeat(5, 1fr); gap: 2px; }
-.team-grid-staff { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; }
+.team-grid-staff { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2px; }
 .team-card { background: #f5f3ef; }
 .team-img-ph { width: 100%; aspect-ratio: 3/4; background: var(--black); display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; }
 .team-img-lbl { font-weight: 700; font-size: 36px; letter-spacing: .04em; text-transform: uppercase; color: var(--off-white); opacity: .08; }
 .team-info { padding: 18px 22px; }
 .team-name { font-weight: 700; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 4px; color: var(--black); }
 .team-role { font-size: 9px; letter-spacing: .2em; text-transform: uppercase; color: var(--gold); }
-@media (max-width: 900px) { .team-grid-mgmt { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 900px) { .team-grid-mgmt { grid-template-columns: repeat(3, 1fr); } .team-grid-staff { grid-template-columns: repeat(3, 1fr); } }
 @media (max-width: 768px) { .team-grid-mgmt { grid-template-columns: repeat(2, 1fr); } .team-grid-staff { grid-template-columns: repeat(2, 1fr); } }
 
 /* PORTFOLIO / TIMELINE */
