@@ -254,13 +254,9 @@ export default function HomePage() {
       {/* CLIENT STORIES & WORK */}
       <section ref={csSectionRef} className="section cs-section" style={{ background: '#fff' }}>
         <div className="cs-left-anim">
-          <div className="cs-left-num">
-            {String(Math.min(Math.floor(csProgress * homeStudies.length), homeStudies.length - 1) + 1).padStart(2, '0')}
-          </div>
           <div className="cs-left-track">
             <div className="cs-left-fill" style={{ height: `${csProgress * 100}%` }} />
           </div>
-          <div className="cs-left-total">/ {String(homeStudies.length).padStart(2, '0')}</div>
         </div>
         <div className="container">
           <div className="gold-rule reveal" />
@@ -268,8 +264,9 @@ export default function HomePage() {
           <p className="f-body reveal" style={{ maxWidth: 420, marginBottom: 52, color: 'rgba(0,0,0,0.5)' }}>Every number is real. Click any brand to see the full story.</p>
         </div>
         <div className="cs-rows">
-          {homeStudies.map((s) => (
+          {homeStudies.map((s, i) => (
             <div key={s.id} className="cs-row reveal">
+              <div className="cs-row-num">{String(i + 1).padStart(2, '0')}</div>
               <div className="cs-row-img">
                 {s.image
                   ? <Image src={s.image} alt={s.brand} fill style={{ objectFit: 'cover' }} />
