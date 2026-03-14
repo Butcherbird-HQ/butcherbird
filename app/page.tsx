@@ -273,6 +273,45 @@ export default function HomePage() {
               </p>
               <p className="f-label">Monthly strategy · Quarterly reviews · Growth roadmap</p>
             </div>
+            <div className="wwd-card reveal">
+              <span className="wwd-num">04</span>
+              <div className="f-gold" style={{ marginBottom: 16 }}>Creative Production</div>
+              <h3 className="f-h2" style={{ marginBottom: 12 }}>Everything Under One Roof</h3>
+              <p className="f-italic wwd-tagline">Media buying without great creative is just expensive guesswork.</p>
+              <p className="f-body" style={{ marginBottom: 24 }}>
+                Photographers, videographers, editors, and graphic designers — all in-house, all working
+                directly on your brand. We don&apos;t brief out and hope for the best. We concept, shoot,
+                edit, and iterate in the same building. Creative that is built to perform, not to look good
+                in a portfolio.
+              </p>
+              <p className="f-label">Photography · Video · Editing · Graphic design</p>
+            </div>
+            <div className="wwd-card reveal">
+              <span className="wwd-num">05</span>
+              <div className="f-gold" style={{ marginBottom: 16 }}>Brand Development</div>
+              <h3 className="f-h2" style={{ marginBottom: 12 }}>Built From Zero. Rebuilt From Scratch.</h3>
+              <p className="f-italic wwd-tagline">A weak brand makes every other channel harder.</p>
+              <p className="f-body" style={{ marginBottom: 24 }}>
+                New brands, complete rebrands, website builds, and digital funnel overhauls. We&apos;ve built
+                consumer brands from nothing and overhauled existing ones — visual identity, positioning,
+                Shopify builds, landing pages, and email infrastructure. Everything a brand needs to
+                compete properly in the digital world.
+              </p>
+              <p className="f-label">Identity · Positioning · Web · Funnels</p>
+            </div>
+            <div className="wwd-card reveal">
+              <span className="wwd-num">06</span>
+              <div className="f-gold" style={{ marginBottom: 16 }}>AI-First Operations</div>
+              <h3 className="f-h2" style={{ marginBottom: 12 }}>The Capability Gap Is Widening</h3>
+              <p className="f-italic wwd-tagline">The agencies not using AI right now are already behind.</p>
+              <p className="f-body" style={{ marginBottom: 24 }}>
+                We run AI tooling across every function — creative ideation, copy, data analysis, audience
+                research, campaign architecture. Not as a gimmick. As a genuine operational advantage.
+                Our team are active power users. The brands we manage benefit from capabilities most
+                agencies won&apos;t catch up to for years.
+              </p>
+              <p className="f-label">Creative AI · Research · Analysis · Automation</p>
+            </div>
           </div>
           <div style={{ marginTop: 64 }} className="reveal">
             <a className="btn btn-gold" href="https://calendly.com/g-butcherbird/butcherbird-introduction-w-gascoyne" target="_blank" rel="noopener noreferrer">Book a Call</a>
