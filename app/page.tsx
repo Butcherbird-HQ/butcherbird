@@ -242,7 +242,6 @@ export default function HomePage() {
           <div className="wwd-grid">
             <div className="wwd-card reveal">
               <span className="wwd-num">01</span>
-              <div className="f-gold" style={{ marginBottom: 16 }}>Paid Media</div>
               <h3 className="f-h2" style={{ marginBottom: 12 }}>Meta & Google Ads</h3>
               <p className="f-italic wwd-tagline">The engine behind the growth of our portfolio brands, and client brands.</p>
               <p className="f-body" style={{ marginBottom: 24 }}>
@@ -253,7 +252,7 @@ export default function HomePage() {
             </div>
             <div className="wwd-card reveal">
               <span className="wwd-num">02</span>
-              <div className="f-gold" style={{ marginBottom: 16 }}>Email Marketing</div>
+
               <h3 className="f-h2" style={{ marginBottom: 12 }}>Email & Klaviyo</h3>
               <p className="f-italic wwd-tagline">20–30% of your revenue is sitting in your list.</p>
               <p className="f-body" style={{ marginBottom: 24 }}>
@@ -264,7 +263,7 @@ export default function HomePage() {
             </div>
             <div className="wwd-card reveal">
               <span className="wwd-num">03</span>
-              <div className="f-gold" style={{ marginBottom: 16 }}>Strategy</div>
+
               <h3 className="f-h2" style={{ marginBottom: 12 }}>Growth Strategy</h3>
               <p className="f-italic wwd-tagline">For founders who want the thinking, not just the execution.</p>
               <p className="f-body" style={{ marginBottom: 24 }}>
@@ -275,7 +274,7 @@ export default function HomePage() {
             </div>
             <div className="wwd-card reveal">
               <span className="wwd-num">04</span>
-              <div className="f-gold" style={{ marginBottom: 16 }}>Creative Production</div>
+
               <h3 className="f-h2" style={{ marginBottom: 12 }}>In-House Creative</h3>
               <p className="f-italic wwd-tagline">Media buying without great creative is just expensive guesswork.</p>
               <p className="f-body" style={{ marginBottom: 24 }}>
@@ -288,7 +287,7 @@ export default function HomePage() {
             </div>
             <div className="wwd-card reveal">
               <span className="wwd-num">05</span>
-              <div className="f-gold" style={{ marginBottom: 16 }}>Brand Development</div>
+
               <h3 className="f-h2" style={{ marginBottom: 12 }}>Brand & Web Builds</h3>
               <p className="f-italic wwd-tagline">A weak brand makes every other channel harder.</p>
               <p className="f-body" style={{ marginBottom: 24 }}>
@@ -301,7 +300,7 @@ export default function HomePage() {
             </div>
             <div className="wwd-card reveal">
               <span className="wwd-num">06</span>
-              <div className="f-gold" style={{ marginBottom: 16 }}>AI-First Operations</div>
+
               <h3 className="f-h2" style={{ marginBottom: 12 }}>AI & Automation</h3>
               <p className="f-italic wwd-tagline">The agencies not using AI right now are already behind.</p>
               <p className="f-body" style={{ marginBottom: 24 }}>
