@@ -105,6 +105,7 @@ export default function HomePage() {
       {/* TESTIMONIALS */}
       <section className="section" style={{ background: 'var(--dark)' }}>
         <div className="container">
+          <div className="gold-rule reveal" />
           <h2 className="f-h1 reveal" style={{ marginBottom: 0 }}>What our<br />clients say.</h2>
           <div style={{ position: 'relative' }}>
           <div className="testi-grid" ref={testiRef}>
@@ -143,6 +144,7 @@ export default function HomePage() {
       {/* INTRO CALL */}
       <section className="section" style={{ background: '#fff' }} id="contact">
         <div className="container">
+          <div className="gold-rule reveal" />
           <h2 className="intro-title reveal" style={{ marginBottom: 48 }}>A conversation.<br />Not a pitch.</h2>
           <div className="intro-card reveal">
             <div className="intro-card-body">
