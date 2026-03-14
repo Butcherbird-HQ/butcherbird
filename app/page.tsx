@@ -45,8 +45,7 @@ export default function HomePage() {
   const [activeTab, setActiveTab] = useState<'performance' | 'creative'>('performance')
   const testiRef = useRef<HTMLDivElement>(null)
   const [testiProgress, setTestiProgress] = useState(0)
-  const csSectionRef = useRef<HTMLElement>(null)
-  const [csProgress, setCsProgress] = useState(0)
+
   const [cName, setCName] = useState('')
   const [cBrand, setCBrand] = useState('')
   const [cEmail, setCEmail] = useState('')
@@ -70,18 +69,6 @@ export default function HomePage() {
     return () => el.removeEventListener('scroll', onScroll)
   }, [])
 
-  useEffect(() => {
-    function onScroll() {
-      const el = csSectionRef.current
-      if (!el) return
-      const rect = el.getBoundingClientRect()
-      const scrollable = el.offsetHeight - window.innerHeight
-      setCsProgress(Math.max(0, Math.min(1, -rect.top / Math.max(scrollable, 1))))
-    }
-    window.addEventListener('scroll', onScroll, { passive: true })
-    onScroll()
-    return () => window.removeEventListener('scroll', onScroll)
-  }, [])
 
   return (
     <>
@@ -252,12 +239,7 @@ export default function HomePage() {
       </section>
 
       {/* CLIENT STORIES & WORK */}
-      <section ref={csSectionRef} className="section cs-section" style={{ background: '#fff' }}>
-        <div className="cs-left-anim">
-          <div className="cs-left-track">
-            <div className="cs-left-fill" style={{ height: `${csProgress * 100}%` }} />
-          </div>
-        </div>
+      <section className="section" style={{ background: '#fff' }}>
         <div className="container">
           <div className="gold-rule reveal" />
           <h2 className="f-h1 reveal" style={{ marginBottom: 12, color: 'var(--black)' }}>Client Stories<br />& Work</h2>

@@ -255,17 +255,15 @@ nav {
 .wwd-tagline { font-size: clamp(14px, 1.4vw, 18px); margin-bottom: 20px; opacity: .85; }
 @media (max-width: 768px) { .wwd-grid { grid-template-columns: 1fr; } }
 
-/* CS SCROLL ANIMATION */
-.cs-section { position: relative; overflow: visible; }
-.cs-left-anim { position: absolute; left: max(28px, calc((100vw - 1200px) / 4 + 28px)); top: 0; bottom: 0; width: 2px; background: rgba(184,150,62,0.12); pointer-events: none; z-index: 1; }
-.cs-left-track { position: absolute; inset: 0; overflow: hidden; }
-.cs-left-fill { position: absolute; top: 0; left: 0; right: 0; background: var(--gold); transition: height .08s linear; }
-@media (max-width: 1200px) { .cs-left-anim { display: none; } }
+/* CS ROW NUMBER LINE */
+.cs-row-num::before, .cs-row-num::after { content: ''; position: absolute; left: 50%; transform: translateX(-1px); width: 1px; }
+.cs-row-num::before { top: 0; height: calc(50% - 20px); background: linear-gradient(to bottom, rgba(184,150,62,0), rgba(184,150,62,0.45) 50%, rgba(184,150,62,0.45)); }
+.cs-row-num::after { bottom: 0; height: calc(50% - 20px); background: linear-gradient(to top, rgba(184,150,62,0), rgba(184,150,62,0.45) 50%, rgba(184,150,62,0.45)); }
 
 /* CLIENT STORY ROWS */
 .cs-rows { display: flex; flex-direction: column; gap: 2px; }
 .cs-row { display: grid; grid-template-columns: max(56px, calc((100vw - 1200px) / 2 + 56px)) 2fr 3fr; }
-.cs-row-num { display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: clamp(12px, 1vw, 16px); letter-spacing: .08em; color: rgba(184,150,62,0.45); position: relative; z-index: 3; background: linear-gradient(to bottom, rgba(255,255,255,0), #fff 12px, #fff calc(100% - 12px), rgba(255,255,255,0)); }
+.cs-row-num { display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; color: var(--gold); position: relative; background: #fff; }
 .cs-row-img { position: relative; min-height: 460px; background: var(--dark); overflow: hidden; }
 .cs-row-img-ph { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: clamp(32px, 5vw, 72px); letter-spacing: .04em; text-transform: uppercase; color: rgba(255,255,255,.04); }
 .cs-row-content { background: var(--dark2); padding: 52px 56px; display: flex; flex-direction: column; }
