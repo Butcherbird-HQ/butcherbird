@@ -180,6 +180,7 @@ nav {
   position: relative;
   overflow: hidden;
 }
+.hero > .container { width: 100%; }
 .hero::before {
   content: '';
   position: absolute;
