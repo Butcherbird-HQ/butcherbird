@@ -372,7 +372,8 @@ export default function HomePage() {
       <section className="section" style={{ background: '#fff' }} id="team">
         <div className="container">
           <div className="gold-rule reveal" />
-          <h2 className="f-h1 reveal" style={{ marginBottom: 64, color: 'var(--black)' }}>The Team</h2>
+          <h2 className="f-h1 reveal" style={{ marginBottom: 16, color: 'var(--black)' }}>The Team</h2>
+          <p className="f-body reveal" style={{ maxWidth: 480, marginBottom: 64, color: 'rgba(0,0,0,0.55)' }}>Not a network of freelancers. Not outsourced. 18 people in one Cape Town office — strategists, creatives, and media buyers who work together every day and apply themselves to your growth.</p>
 
           <div className="team-group reveal">
             <p className="f-gold" style={{ marginBottom: 28, letterSpacing: '0.2em' }}>Management</p>
