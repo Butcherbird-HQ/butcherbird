@@ -153,7 +153,6 @@ export default function HomePage() {
               { brand: 'BONNIE BIO', person: 'Frank McDouall', role: 'Owner', location: 'Johannesburg', oneliner: "Certified compostable, plant-based household products — bags, cling wrap, straws, and air fryer liners" },
               { brand: 'HELPDESK', person: 'Mohammed Al Sabbagh', role: 'Founder', location: 'Dubai', oneliner: "On-demand expert platform connecting users to real human specialists via audio, video, and screen share" },
               { brand: 'SHOOT STUDIOS', person: 'Elad', role: 'Owner', location: 'Cape Town', oneliner: "Professional photography and creative studio rental space in Woodstock, Cape Town" },
-              { brand: 'KOKEE', person: 'Chris', role: 'Founder', location: 'Johannesburg', oneliner: "Natural electrolyte powder made with coconut water and Himalayan salt — everyday hydration, simplified" },
             ].map((t) => (
               <div key={t.brand} className="testi-card reveal">
                 <div className="testi-video-ph">

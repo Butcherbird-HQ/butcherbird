@@ -18,40 +18,6 @@ export interface CaseStudy {
 
 export const caseStudies: CaseStudy[] = [
   {
-    id: 'buub',
-    brand: 'BUUB',
-    tag: 'Organic Skincare',
-    category: 'internal',
-    subtitle: 'Organic SPF50 — 10,000+ customers, 400+ retail stores',
-    desc: 'Built from zero to 10,000+ customers and 400+ retail stores. An organic SPF50 brand that proved direct product messaging beats lifestyle content every single time.',
-    metrics: [
-      { val: '3.56×', lbl: 'Blended ROAS' },
-      { val: '10K+', lbl: 'Customers' },
-      { val: '11.83×', lbl: 'Best creative ROAS' },
-      { val: '400+', lbl: 'Retail stores' },
-      { val: 'Feb \'23', lbl: 'Active since' },
-    ],
-    story:
-      'BUUB existed before Butcherbird did. Two external agencies came and went — thousands spent, nothing to show for it. Paid media felt broken. So we built Butcherbird to fix it, and BUUB was the first brand we ran the new system on.\n\nThe insight came fast and it was brutal in its simplicity: a plain product shot with direct copy hit 11.83× ROAS and made every piece of expensive lifestyle content look stupid by comparison. Static over video. Product over story. Direct over aspirational. Every single time.\n\nWe scaled what worked and killed everything else. 333 purchases in a single month. R218,000+ in revenue. One ad alone generated R55,000 at 7.37× ROAS.\n\nThen the data became the pitch. BUUB walked into Dis-Chem and Wellness Warehouse with real purchase volume and a clear trajectory. The buyers said yes. A brand that started at beach markets now sits on shelves in 400+ stores nationwide.\n\nBUUB is the proof of concept for everything Butcherbird does. The principles it validated — static over video, direct messaging, relentless creative testing — run through every brand we\'ve built since.',
-  },
-  {
-    id: 'schnozz',
-    brand: 'SCHNOZZ',
-    tag: 'Health & Wellness',
-    category: 'internal',
-    subtitle: 'Nasal strips to multi-product retail brand — 200+ doors',
-    desc: '20,000+ customers, 200+ retail doors, multiple product extensions — built in under 8 months from a single SKU.',
-    metrics: [
-      { val: '3.10×', lbl: 'Blended ROAS' },
-      { val: '20K+', lbl: 'Customers' },
-      { val: 'R47', lbl: 'Lowest CPA achieved' },
-      { val: '200+', lbl: 'Retail doors' },
-      { val: 'Dec \'24', lbl: 'Active since' },
-    ],
-    story:
-      "Most brands launch with a landing page and a prayer. Schnozz launched with an army.\n\n300 ambassadors assembled before a single ad ran. Athletes, wellness creators, sleep coaches, biohackers — briefed to try the product, film it, and post it. Over 2 million organic views before we spent a rand on media. By the time paid went live, people were already searching for it.\n\nFull-funnel from day one. Prospecting creative built from the best ambassador content — real faces, real reactions, no scripts. The creative system never stopped: a Sea Point testimonial hit 6.62× ROAS. A hayfever static peaked at 8.60× in a single day. A kids' mouth-breathing angle — first to market in South Africa — hit 7.37×. Every week, winners got more budget.\n\nR500,000+ in online revenue in month three from launch. 8.20× ROAS in the strongest week. 2,133 purchases in a single month.\n\nThen the data opened doors that cold calls never could. Schnozz walked into Sportsman's Warehouse, Cape Union Mart, and Wellness Warehouse with proof of demand. 200+ retail doors later, a brand that started as a single SKU now has Kiddies Strips, Mouth Tape, and a US expansion already underway.\n\nPeople stopped saying nasal strips. They started saying Schnozz strips. That's the difference between a product and a brand.",
-  },
-  {
     id: 'superior',
     brand: 'SUPERIOR',
     tag: 'Fragrance',
@@ -165,5 +131,39 @@ export const caseStudies: CaseStudy[] = [
     ],
     story:
       "Before working with Butcherbird, every booking at Shoot Studios came from word of mouth or Instagram. Some weeks were fully booked. Others were dead quiet. No system. No pipeline. No way to control the flow.\n\nThorin, the studio's marketing operator, had never run a Meta ad. No pixel. No campaign structure. No idea where to start. They didn't need someone to run their ads — they needed someone to teach them how.\n\nWe ran weekly coaching sessions: one hour a week, building from scratch. Pixel installation. Lead form setup. Campaign structure. How to read the data. When to kill an ad and when to let it breathe.\n\nThorin went from zero to launching his first campaign in two weeks. We didn't touch the ad account. He did everything himself.\n\nBy January, ad submissions were generating R21,000 in studio bookings from R3,000 in spend. By March, it was one of their best months ever.\n\nThen the ads were paused over the holidays. The enquiries stopped completely. The owner pushed to restart immediately.\n\n\"Without the ads, there's a significant decline in bookings.\" That's not a testimonial we asked for. It's what happens when paid media becomes the engine — you feel it the moment you turn it off.\n\nThorin now manages campaigns across four businesses. The gap between where he started and where he is now is enormous — and the bookings prove it.",
+  },
+  {
+    id: 'buub',
+    brand: 'BUUB',
+    tag: 'Organic Skincare',
+    category: 'internal',
+    subtitle: 'Organic SPF50 — 10,000+ customers, 400+ retail stores',
+    desc: 'Built from zero to 10,000+ customers and 400+ retail stores. An organic SPF50 brand that proved direct product messaging beats lifestyle content every single time.',
+    metrics: [
+      { val: '3.56×', lbl: 'Blended ROAS' },
+      { val: '10K+', lbl: 'Customers' },
+      { val: '11.83×', lbl: 'Best creative ROAS' },
+      { val: '400+', lbl: 'Retail stores' },
+      { val: 'Feb \'23', lbl: 'Active since' },
+    ],
+    story:
+      'BUUB existed before Butcherbird did. Two external agencies came and went — thousands spent, nothing to show for it. Paid media felt broken. So we built Butcherbird to fix it, and BUUB was the first brand we ran the new system on.\n\nThe insight came fast and it was brutal in its simplicity: a plain product shot with direct copy hit 11.83× ROAS and made every piece of expensive lifestyle content look stupid by comparison. Static over video. Product over story. Direct over aspirational. Every single time.\n\nWe scaled what worked and killed everything else. 333 purchases in a single month. R218,000+ in revenue. One ad alone generated R55,000 at 7.37× ROAS.\n\nThen the data became the pitch. BUUB walked into Dis-Chem and Wellness Warehouse with real purchase volume and a clear trajectory. The buyers said yes. A brand that started at beach markets now sits on shelves in 400+ stores nationwide.\n\nBUUB is the proof of concept for everything Butcherbird does. The principles it validated — static over video, direct messaging, relentless creative testing — run through every brand we\'ve built since.',
+  },
+  {
+    id: 'schnozz',
+    brand: 'SCHNOZZ',
+    tag: 'Health & Wellness',
+    category: 'internal',
+    subtitle: 'Nasal strips to multi-product retail brand — 200+ doors',
+    desc: '20,000+ customers, 200+ retail doors, multiple product extensions — built in under 8 months from a single SKU.',
+    metrics: [
+      { val: '3.10×', lbl: 'Blended ROAS' },
+      { val: '20K+', lbl: 'Customers' },
+      { val: 'R47', lbl: 'Lowest CPA achieved' },
+      { val: '200+', lbl: 'Retail doors' },
+      { val: 'Dec \'24', lbl: 'Active since' },
+    ],
+    story:
+      "Most brands launch with a landing page and a prayer. Schnozz launched with an army.\n\n300 ambassadors assembled before a single ad ran. Athletes, wellness creators, sleep coaches, biohackers — briefed to try the product, film it, and post it. Over 2 million organic views before we spent a rand on media. By the time paid went live, people were already searching for it.\n\nFull-funnel from day one. Prospecting creative built from the best ambassador content — real faces, real reactions, no scripts. The creative system never stopped: a Sea Point testimonial hit 6.62× ROAS. A hayfever static peaked at 8.60× in a single day. A kids' mouth-breathing angle — first to market in South Africa — hit 7.37×. Every week, winners got more budget.\n\nR500,000+ in online revenue in month three from launch. 8.20× ROAS in the strongest week. 2,133 purchases in a single month.\n\nThen the data opened doors that cold calls never could. Schnozz walked into Sportsman's Warehouse, Cape Union Mart, and Wellness Warehouse with proof of demand. 200+ retail doors later, a brand that started as a single SKU now has Kiddies Strips, Mouth Tape, and a US expansion already underway.\n\nPeople stopped saying nasal strips. They started saying Schnozz strips. That's the difference between a product and a brand.",
   },
 ]
